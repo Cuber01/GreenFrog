@@ -4,10 +4,11 @@ $enemy_folder = "/home/cubeq/bin/anura/modules/frogatto/data/objects/enemies/"
 $level_folder = "/home/cubeq/bin/anura/modules/frogatto/data/level/"
 $current_folder = ""
 
-$progression_raw =  File.read("./Level_Index.json")
+$progression_raw =  File.read("./ProgressionSorted.json")
 $progression = JSON.parse($progression_raw)
 
 $enemies = []
+$levels = []
 
 def GetEnemyDirs()
     
@@ -15,7 +16,7 @@ def GetEnemyDirs()
 
     for i in 0...directories.length
         
-        if directories[i] != "." and directories[i] != ".." then 
+        if not directories[i].include? "." then 
             $current_folder = $enemy_folder + directories[i]
             GetEnemies($current_folder)
         end
@@ -25,7 +26,7 @@ def GetEnemyDirs()
     ExtractIDs()
     
     #puts $enemies
-    puts $progression
+    #puts $progression
 end
 
 def GetEnemies(folder)
@@ -52,4 +53,35 @@ def ExtractIDs()
 end
 
 
-GetEnemyDirs()
+def GetLevelDirs()
+    directories = Dir.entries($level_folder)
+
+    for i in 0...directories.length
+        
+        if not directories[i].include? "." then 
+            $current_folder = $level_folder + directories[i] + "/"
+            GetLevels($current_folder)
+        end
+
+    end
+
+end
+
+def GetLevels(folder)
+    folder_contents = Dir.entries(folder)
+    
+
+    for i in 0...folder_contents.length
+        
+        if folder_contents[i] != "." and folder_contents[i] != ".." then
+            $levels << folder + folder_contents[i]
+        end
+
+    end
+
+    
+end
+
+GetLevelDirs()
+puts $levels
+#GetEnemyDirs()
