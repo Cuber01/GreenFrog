@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="1000" height="1000" style="background:#ddd" 
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+<line x1="132" y1="200" x2="262" y2="200" stroke="black"/>
+<line x1="264" y1="200" x2="394" y2="200" stroke="black"/>
+<line x1="396" y1="200" x2="526" y2="200" stroke="black"/>
+<line x1="528" y1="200" x2="658" y2="200" stroke="black"/>
+<line x1="660" y1="200" x2="790" y2="200" stroke="black"/>
+<line x1="182" y1="200" x2="412" y2="150" stroke="black"/>
+<line x1="182" y1="200" x2="412" y2="150" stroke="black"/>
+<line x1="314" y1="200" x2="544" y2="150" stroke="black"/>
+<line x1="314" y1="200" x2="544" y2="150" stroke="black"/>
+<line x1="446" y1="200" x2="676" y2="150" stroke="black"/>
+<line x1="446" y1="200" x2="676" y2="150" stroke="black"/>
+<line x1="578" y1="200" x2="808" y2="150" stroke="black"/>
+<line x1="578" y1="200" x2="808" y2="150" stroke="black"/>
+<line x1="710" y1="200" x2="940" y2="150" stroke="black"/>
+<line x1="710" y1="200" x2="940" y2="150" stroke="black"/>
+
+</svg>
