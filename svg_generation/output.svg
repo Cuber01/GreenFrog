@@ -6,13 +6,21 @@
   xmlns:xlink="http://www.w3.org/1999/xlink">
 
 
+<line x1="187" y1="200" x2="237" y2="150" stroke="black"/>
+<line x1="237" y1="150" x2="262" y2="150" stroke="black"/>
 <line x1="132" y1="200" x2="262" y2="200" stroke="black"/>
+<line x1="264" y1="150" x2="394" y2="150" stroke="black"/>
 <line x1="264" y1="200" x2="394" y2="200" stroke="black"/>
 <line x1="396" y1="200" x2="526" y2="200" stroke="black"/>
+<line x1="396" y1="200" x2="526" y2="200" stroke="black"/>
 <line x1="528" y1="200" x2="658" y2="200" stroke="black"/>
+<line x1="528" y1="200" x2="658" y2="200" stroke="black"/>
+<line x1="715" y1="200" x2="765" y2="150" stroke="black"/>
+<line x1="765" y1="150" x2="790" y2="150" stroke="black"/>
 <line x1="660" y1="200" x2="790" y2="200" stroke="black"/>
+<line x1="792" y1="150" x2="922" y2="150" stroke="black"/>
 <line x1="792" y1="200" x2="922" y2="200" stroke="black"/>
-<line x1="451" y1="200" x2="501" y2="150" stroke="black"/>
-<line x1="501" y1="150" x2="526" y2="150" stroke="black"/>
+<line x1="924" y1="200" x2="1054" y2="200" stroke="black"/>
+<line x1="924" y1="200" x2="1054" y2="200" stroke="black"/>
 
 </svg>

@@ -27,12 +27,13 @@ require 'victor'
 
 
 $levels = [
-  ["seaside", 0],
+  ["seaside", 0, "bonus"],
   ["crevice village", 1],
-  ["forest", 2, "bonus"],
+  ["forest", 2, "anyway"],
   ["cave", 3], 
-  ["dungeon", 4, "anyway"],
-  ["castle", 5]
+  ["dungeon", 4, "bonus"],
+  ["castle", 5],
+  ["cool", 6, "anyway"]
 ]
 
 
@@ -60,29 +61,45 @@ def DrawConnector(svg, x, y)
     svg.line x1: x+50, y1: y, x2: x+75, y2: y, stroke: 'black'
     
 end
-
+ 
 
 def main()
 
     svg = Victor::SVG.new width: 1000, height: 1000, style: { background: '#ddd' }
 
 
-      for i in 1..$nmb_of_lines do
-        
-        DrawLine(svg, $line_shift * i + $index, 200)
-
-      end
-
-
       for i in 0...$nmb_of_lines do
-        puts $levels[i][2]
+        multiplier = i
+        #puts multiplier
+        
+    
         if $levels[i][2] == "bonus" then  
-          DrawConnector( svg, (i+1) * $line_shift + 55 , 150)
+
+          draw_upper_line = false 
+          DrawConnector( svg, (multiplier+1) * $line_shift + 55 , 150)
+          $index = 50
+
+        elsif $levels[i][2] == "anyway" then
+          $index = 0
         end
-        
-        #puts "#{key}"
-        
+
+        if draw_upper_line then
+          DrawLine(svg, $line_shift * (multiplier+1), 200 - $index)
+        end
+
+        DrawLine(svg, $line_shift * (multiplier+1), 200)
+
+        draw_upper_line = true 
+
       end
+
+
+      # for i in 0...$nmb_of_lines do
+
+      #    #puts $levels[i][2]
+
+
+      # end
 
 
 
