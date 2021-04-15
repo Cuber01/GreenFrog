@@ -2,39 +2,45 @@
 #
 #   ORGANIZE:
 #      - Change for to each
-#      - Add main()
 #      - Add comments for users
 #
 #
 #   UI:
-#     - Tag lines as levels  
-#     - Make it work with our info       
+#     - Tag lines as levels      
 #     - Display full info about levels
 #     - Port to html
 #     - Make it interactable and display info better
 #     - Add images
-#   
+#     - napisy pod kątem
+
 #   DATA:
 #       - Update Progression.json
-#       - It doesnt fully work
 #       - Add a way to get images
 #       - Ignore some enemies + special tweaks
 # 
+# $levels = [
+#   ["seaside", 0, "bonus"],
+#   ["crevice village", 1],
+#   ["forest", 2, "anyway"],
+#   ["cave", 3], 
+#   ["dungeon", 4, "bonus"],
+#   ["castle", 5],
+#   ["cool", 6, "anyway"]
+# ]
+
 
 
 require 'victor'
+require 'json'
 
 
-$levels = [
-  ["seaside", 0, "bonus"],
-  ["crevice village", 1],
-  ["forest", 2, "anyway"],
-  ["cave", 3], 
-  ["dungeon", 4, "bonus"],
-  ["castle", 5],
-  ["cool", 6, "anyway"]
-]
 
+
+$levels = JSON.parse(File.read("/home/cubeq/Projects/ruby/GetEnemies/ProgressionSorted.json"))
+$enemies = JSON.parse(File.read("/home/cubeq/Projects/ruby/GetEnemies/Enemies.json"))
+
+
+$temp = true
 
 $nmb_of_lines = $levels.length
 $line_shift = 132
@@ -61,15 +67,18 @@ def DrawConnector(svg, x, y)
     
 end
  
+def DrawText(svg, x, y, txt)
+  svg.text txt, x: x, y: y
+end
 
 def main()
 
-    svg = Victor::SVG.new width: 1000, height: 1000, style: { background: '#ddd' }
+    svg = Victor::SVG.new width: 10000, height: 1000, style: { background: '#ddd' }
 
 
       for i in 0...$nmb_of_lines do
         multiplier = i
-        #puts multiplier
+        
         
     
         if $levels[i][2] == "bonus" then  
@@ -87,20 +96,36 @@ def main()
         end
 
         DrawLine(svg, $line_shift * (multiplier+1), 200)
+        
+        #TEMP
+          temp_int = 20
 
+          if $temp == true then
+            temp_int = 40
+            $temp = false
+          else
+            $temp = true
+          end
+            
+        #TEMP
+        
+        DrawText(svg, $line_shift * (multiplier+1), 200+temp_int, $levels[i][0])
+        
+        
+        for j in 0...$enemies.length do
+
+          if $levels[i][0] == $enemies[j][1] then
+            
+            DrawText(svg, $line_shift * (multiplier+1), 195-(20*(j%6)), $enemies[j][0])
+          end
+
+        end
+        
+        
         draw_upper_line = true 
+        
 
       end
-
-
-      # for i in 0...$nmb_of_lines do
-
-      #    #puts $levels[i][2]
-
-
-      # end
-
-
 
 
     svg.save 'output'

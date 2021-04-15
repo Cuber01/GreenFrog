@@ -1,26 +1,985 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
-<svg width="1000" height="1000" style="background:#ddd" 
+<svg width="10000" height="1000" style="background:#ddd" 
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink">
 
 
-<line x1="187" y1="200" x2="237" y2="150" stroke="black"/>
-<line x1="237" y1="150" x2="262" y2="150" stroke="black"/>
 <line x1="132" y1="200" x2="262" y2="200" stroke="black"/>
-<line x1="264" y1="150" x2="394" y2="150" stroke="black"/>
+<text x="132" y="240">
+frogatto-grotto-frogattos-room.cfg
+</text>
 <line x1="264" y1="200" x2="394" y2="200" stroke="black"/>
+<line x1="264" y1="200" x2="394" y2="200" stroke="black"/>
+<text x="264" y="220">
+frogatto-grotto-inside.cfg
+</text>
 <line x1="396" y1="200" x2="526" y2="200" stroke="black"/>
 <line x1="396" y1="200" x2="526" y2="200" stroke="black"/>
+<text x="396" y="240">
+frogatto-grotto-patos-room.cfg
+</text>
 <line x1="528" y1="200" x2="658" y2="200" stroke="black"/>
 <line x1="528" y1="200" x2="658" y2="200" stroke="black"/>
-<line x1="715" y1="200" x2="765" y2="150" stroke="black"/>
-<line x1="765" y1="150" x2="790" y2="150" stroke="black"/>
+<text x="528" y="220">
+frogatto-grotto.cfg
+</text>
 <line x1="660" y1="200" x2="790" y2="200" stroke="black"/>
-<line x1="792" y1="150" x2="922" y2="150" stroke="black"/>
+<line x1="660" y1="200" x2="790" y2="200" stroke="black"/>
+<text x="660" y="240">
+grassy-path.cfg
+</text>
+<text x="660" y="195">
+anthill
+</text>
+<text x="660" y="175">
+ant_black
+</text>
+<text x="660" y="155">
+beetle_black
+</text>
+<text x="660" y="135">
+ant_red
+</text>
 <line x1="792" y1="200" x2="922" y2="200" stroke="black"/>
+<line x1="792" y1="200" x2="922" y2="200" stroke="black"/>
+<text x="792" y="220">
+to-nenes-house.cfg
+</text>
+<text x="792" y="115">
+fish_green
+</text>
+<text x="792" y="95">
+beetle_water
+</text>
+<text x="792" y="195">
+ant_flying_black
+</text>
 <line x1="924" y1="200" x2="1054" y2="200" stroke="black"/>
 <line x1="924" y1="200" x2="1054" y2="200" stroke="black"/>
+<text x="924" y="240">
+to-nenes-house-inside.cfg
+</text>
+<text x="924" y="175">
+ant_platform_red
+</text>
+<text x="924" y="155">
+ant_gold
+</text>
+<line x1="1056" y1="200" x2="1186" y2="200" stroke="black"/>
+<line x1="1056" y1="200" x2="1186" y2="200" stroke="black"/>
+<text x="1056" y="220">
+nenes-basement.cfg
+</text>
+<line x1="1188" y1="200" x2="1318" y2="200" stroke="black"/>
+<line x1="1188" y1="200" x2="1318" y2="200" stroke="black"/>
+<text x="1188" y="240">
+bay-overlook.cfg
+</text>
+<text x="1188" y="135">
+fish_blue_darter
+</text>
+<text x="1188" y="115">
+fish_purple
+</text>
+<text x="1188" y="95">
+super_shooting_plant
+</text>
+<text x="1188" y="195">
+shooting_plant
+</text>
+<text x="1188" y="175">
+pricklestalk_green
+</text>
+<text x="1188" y="155">
+hornbug_red
+</text>
+<line x1="1320" y1="200" x2="1450" y2="200" stroke="black"/>
+<line x1="1320" y1="200" x2="1450" y2="200" stroke="black"/>
+<text x="1320" y="220">
+cragland.cfg
+</text>
+<text x="1320" y="135">
+spitting_flower
+</text>
+<text x="1320" y="115">
+helicopter_plant
+</text>
+<line x1="1452" y1="200" x2="1582" y2="200" stroke="black"/>
+<line x1="1452" y1="200" x2="1582" y2="200" stroke="black"/>
+<text x="1452" y="240">
+lighthouse-ruins.cfg
+</text>
+<line x1="1584" y1="200" x2="1714" y2="200" stroke="black"/>
+<line x1="1584" y1="200" x2="1714" y2="200" stroke="black"/>
+<text x="1584" y="220">
+splash-hop.cfg
+</text>
+<text x="1584" y="95">
+beetle_black_armor
+</text>
+<line x1="1716" y1="200" x2="1846" y2="200" stroke="black"/>
+<line x1="1716" y1="200" x2="1846" y2="200" stroke="black"/>
+<text x="1716" y="240">
+burn-and-bubble.cfg
+</text>
+<line x1="1848" y1="200" x2="1978" y2="200" stroke="black"/>
+<line x1="1848" y1="200" x2="1978" y2="200" stroke="black"/>
+<text x="1848" y="220">
+stonepipe-flats.cfg
+</text>
+<line x1="1980" y1="200" x2="2110" y2="200" stroke="black"/>
+<line x1="1980" y1="200" x2="2110" y2="200" stroke="black"/>
+<text x="1980" y="240">
+stonepipe-meadow.cfg
+</text>
+<text x="1980" y="195">
+ant_flying_platform_red
+</text>
+<line x1="2112" y1="200" x2="2242" y2="200" stroke="black"/>
+<line x1="2112" y1="200" x2="2242" y2="200" stroke="black"/>
+<text x="2112" y="220">
+airplane-boss.cfg
+</text>
+<text x="2112" y="175">
+airplane_boss
+</text>
+<line x1="2244" y1="200" x2="2374" y2="200" stroke="black"/>
+<line x1="2244" y1="200" x2="2374" y2="200" stroke="black"/>
+<text x="2244" y="240">
+secluded-hut.cfg
+</text>
+<line x1="2376" y1="200" x2="2506" y2="200" stroke="black"/>
+<line x1="2376" y1="200" x2="2506" y2="200" stroke="black"/>
+<text x="2376" y="220">
+secluded-hut-interior.cfg
+</text>
+<text x="2376" y="155">
+owl
+</text>
+<line x1="2508" y1="200" x2="2638" y2="200" stroke="black"/>
+<line x1="2508" y1="200" x2="2638" y2="200" stroke="black"/>
+<text x="2508" y="240">
+the-north-tower.cfg
+</text>
+<text x="2508" y="135">
+milgram
+</text>
+<text x="2508" y="115">
+retracting_spike_machine
+</text>
+<line x1="2640" y1="200" x2="2770" y2="200" stroke="black"/>
+<line x1="2640" y1="200" x2="2770" y2="200" stroke="black"/>
+<text x="2640" y="220">
+rock-a-fort.cfg
+</text>
+<text x="2640" y="95">
+fumper_hopper
+</text>
+<line x1="2772" y1="200" x2="2902" y2="200" stroke="black"/>
+<line x1="2772" y1="200" x2="2902" y2="200" stroke="black"/>
+<text x="2772" y="240">
+rock-a-fort-cave.cfg
+</text>
+<text x="2772" y="195">
+bat_black
+</text>
+<line x1="2904" y1="200" x2="3034" y2="200" stroke="black"/>
+<line x1="2904" y1="200" x2="3034" y2="200" stroke="black"/>
+<text x="2904" y="220">
+flooded-caverns.cfg
+</text>
+<line x1="3036" y1="200" x2="3166" y2="200" stroke="black"/>
+<line x1="3036" y1="200" x2="3166" y2="200" stroke="black"/>
+<text x="3036" y="240">
+downhill.cfg
+</text>
+<text x="3036" y="175">
+fumper_flapper
+</text>
+<line x1="3168" y1="200" x2="3298" y2="200" stroke="black"/>
+<line x1="3168" y1="200" x2="3298" y2="200" stroke="black"/>
+<text x="3168" y="220">
+descent-to-town.cfg
+</text>
+<line x1="3300" y1="200" x2="3430" y2="200" stroke="black"/>
+<line x1="3300" y1="200" x2="3430" y2="200" stroke="black"/>
+<text x="3300" y="240">
+chopple-shop.cfg
+</text>
+<line x1="3432" y1="200" x2="3562" y2="200" stroke="black"/>
+<line x1="3432" y1="200" x2="3562" y2="200" stroke="black"/>
+<text x="3432" y="220">
+chopple-shop-interior.cfg
+</text>
+<line x1="3564" y1="200" x2="3694" y2="200" stroke="black"/>
+<line x1="3564" y1="200" x2="3694" y2="200" stroke="black"/>
+<text x="3564" y="240">
+crevice-village-cave.cfg
+</text>
+<text x="3564" y="155">
+kitty_spear
+</text>
+<text x="3564" y="135">
+kitty_gun
+</text>
+<line x1="3696" y1="200" x2="3826" y2="200" stroke="black"/>
+<line x1="3696" y1="200" x2="3826" y2="200" stroke="black"/>
+<text x="3696" y="220">
+crevice-village-central.cfg
+</text>
+<line x1="3828" y1="200" x2="3958" y2="200" stroke="black"/>
+<line x1="3828" y1="200" x2="3958" y2="200" stroke="black"/>
+<text x="3828" y="240">
+crevice-village.cfg
+</text>
+<line x1="3960" y1="200" x2="4090" y2="200" stroke="black"/>
+<line x1="3960" y1="200" x2="4090" y2="200" stroke="black"/>
+<text x="3960" y="220">
+crevice-village-central-side-cave.cfg
+</text>
+<line x1="4092" y1="200" x2="4222" y2="200" stroke="black"/>
+<line x1="4092" y1="200" x2="4222" y2="200" stroke="black"/>
+<text x="4092" y="240">
+crevice-village-house-1.cfg
+</text>
+<text x="4092" y="115">
+milgram_pod_launcher
+</text>
+<text x="4092" y="95">
+milgram_block
+</text>
+<text x="4092" y="195">
+milgram_pod
+</text>
+<line x1="4224" y1="200" x2="4354" y2="200" stroke="black"/>
+<line x1="4224" y1="200" x2="4354" y2="200" stroke="black"/>
+<text x="4224" y="220">
+crevice-village-house-2.cfg
+</text>
+<line x1="4356" y1="200" x2="4486" y2="200" stroke="black"/>
+<line x1="4356" y1="200" x2="4486" y2="200" stroke="black"/>
+<text x="4356" y="240">
+crevice-village-house-2-basement.cfg
+</text>
+<line x1="4488" y1="200" x2="4618" y2="200" stroke="black"/>
+<line x1="4488" y1="200" x2="4618" y2="200" stroke="black"/>
+<text x="4488" y="220">
+crevice-village-house-2-basement-backroom.cfg
+</text>
+<line x1="4620" y1="200" x2="4750" y2="200" stroke="black"/>
+<line x1="4620" y1="200" x2="4750" y2="200" stroke="black"/>
+<text x="4620" y="240">
+crevice-village-house-4.cfg
+</text>
+<text x="4620" y="175">
+bunny_ball_tosser
+</text>
+<line x1="4752" y1="200" x2="4882" y2="200" stroke="black"/>
+<line x1="4752" y1="200" x2="4882" y2="200" stroke="black"/>
+<text x="4752" y="220">
+crevice-village-house-4-backroom.cfg
+</text>
+<line x1="4884" y1="200" x2="5014" y2="200" stroke="black"/>
+<line x1="4884" y1="200" x2="5014" y2="200" stroke="black"/>
+<text x="4884" y="240">
+crevice-village-house-3.cfg
+</text>
+<line x1="5016" y1="200" x2="5146" y2="200" stroke="black"/>
+<line x1="5016" y1="200" x2="5146" y2="200" stroke="black"/>
+<text x="5016" y="220">
+crevice-village-house-3-backroom.cfg
+</text>
+<line x1="5148" y1="200" x2="5278" y2="200" stroke="black"/>
+<line x1="5148" y1="200" x2="5278" y2="200" stroke="black"/>
+<text x="5148" y="240">
+crevice-village-house-3-switch.cfg
+</text>
+<line x1="5280" y1="200" x2="5410" y2="200" stroke="black"/>
+<line x1="5280" y1="200" x2="5410" y2="200" stroke="black"/>
+<text x="5280" y="220">
+crevice-village-heights.cfg
+</text>
+<line x1="5412" y1="200" x2="5542" y2="200" stroke="black"/>
+<line x1="5412" y1="200" x2="5542" y2="200" stroke="black"/>
+<text x="5412" y="240">
+crevice-village-house-elder.cfg
+</text>
+<text x="5412" y="155">
+kitty_sword
+</text>
+<line x1="5544" y1="200" x2="5674" y2="200" stroke="black"/>
+<line x1="5544" y1="200" x2="5674" y2="200" stroke="black"/>
+<text x="5544" y="220">
+crevice-bridge.cfg
+</text>
+<line x1="5676" y1="200" x2="5806" y2="200" stroke="black"/>
+<line x1="5676" y1="200" x2="5806" y2="200" stroke="black"/>
+<text x="5676" y="240">
+wandering-passage.cfg
+</text>
+<line x1="5808" y1="200" x2="5938" y2="200" stroke="black"/>
+<line x1="5808" y1="200" x2="5938" y2="200" stroke="black"/>
+<text x="5808" y="220">
+foreboding-forest.cfg
+</text>
+<text x="5808" y="135">
+starburst_shooting_plant
+</text>
+<text x="5808" y="115">
+squirrel_black
+</text>
+<text x="5808" y="95">
+acorn
+</text>
+<text x="5808" y="195">
+rabbit_black
+</text>
+<line x1="5940" y1="200" x2="6070" y2="200" stroke="black"/>
+<line x1="5940" y1="200" x2="6070" y2="200" stroke="black"/>
+<text x="5940" y="240">
+gnarled-knoll.cfg
+</text>
+<line x1="6072" y1="200" x2="6202" y2="200" stroke="black"/>
+<line x1="6072" y1="200" x2="6202" y2="200" stroke="black"/>
+<text x="6072" y="220">
+starlit-cave.cfg
+</text>
+<line x1="6204" y1="200" x2="6334" y2="200" stroke="black"/>
+<line x1="6204" y1="200" x2="6334" y2="200" stroke="black"/>
+<text x="6204" y="240">
+turgid-turn.cfg
+</text>
+<line x1="6336" y1="200" x2="6466" y2="200" stroke="black"/>
+<line x1="6336" y1="200" x2="6466" y2="200" stroke="black"/>
+<text x="6336" y="220">
+rocky-road.cfg
+</text>
+<text x="6336" y="175">
+spider_black
+</text>
+<text x="6336" y="155">
+spider_red
+</text>
+<text x="6336" y="135">
+owl_path_following
+</text>
+<text x="6336" y="115">
+rabbit_red
+</text>
+<line x1="6468" y1="200" x2="6598" y2="200" stroke="black"/>
+<line x1="6468" y1="200" x2="6598" y2="200" stroke="black"/>
+<text x="6468" y="240">
+rocky-road-house-inside.cfg
+</text>
+<line x1="6600" y1="200" x2="6730" y2="200" stroke="black"/>
+<line x1="6600" y1="200" x2="6730" y2="200" stroke="black"/>
+<text x="6600" y="220">
+rocky-road-shortcut.cfg
+</text>
+<line x1="6732" y1="200" x2="6862" y2="200" stroke="black"/>
+<line x1="6732" y1="200" x2="6862" y2="200" stroke="black"/>
+<text x="6732" y="240">
+tempo-outskirts.cfg
+</text>
+<line x1="6864" y1="200" x2="6994" y2="200" stroke="black"/>
+<line x1="6864" y1="200" x2="6994" y2="200" stroke="black"/>
+<text x="6864" y="220">
+tempo-outskirts-inside.cfg
+</text>
+<line x1="6996" y1="200" x2="7126" y2="200" stroke="black"/>
+<line x1="6996" y1="200" x2="7126" y2="200" stroke="black"/>
+<text x="6996" y="240">
+conveyance.cfg
+</text>
+<line x1="7128" y1="200" x2="7258" y2="200" stroke="black"/>
+<line x1="7128" y1="200" x2="7258" y2="200" stroke="black"/>
+<text x="7128" y="220">
+conveyance-crossing.cfg
+</text>
+<line x1="7260" y1="200" x2="7390" y2="200" stroke="black"/>
+<line x1="7260" y1="200" x2="7390" y2="200" stroke="black"/>
+<text x="7260" y="240">
+roadside-retreat.cfg
+</text>
+<text x="7260" y="95">
+squirrel_red
+</text>
+<line x1="7392" y1="200" x2="7522" y2="200" stroke="black"/>
+<line x1="7392" y1="200" x2="7522" y2="200" stroke="black"/>
+<text x="7392" y="220">
+rustic-route.cfg
+</text>
+<line x1="7524" y1="200" x2="7654" y2="200" stroke="black"/>
+<line x1="7524" y1="200" x2="7654" y2="200" stroke="black"/>
+<text x="7524" y="240">
+tempo-village.cfg
+</text>
+<line x1="7656" y1="200" x2="7786" y2="200" stroke="black"/>
+<line x1="7656" y1="200" x2="7786" y2="200" stroke="black"/>
+<text x="7656" y="220">
+tempo-village-house-1.cfg
+</text>
+<line x1="7788" y1="200" x2="7918" y2="200" stroke="black"/>
+<line x1="7788" y1="200" x2="7918" y2="200" stroke="black"/>
+<text x="7788" y="240">
+tempo-village-house-2.cfg
+</text>
+<line x1="7920" y1="200" x2="8050" y2="200" stroke="black"/>
+<line x1="7920" y1="200" x2="8050" y2="200" stroke="black"/>
+<text x="7920" y="220">
+tempo-village-house-3.cfg
+</text>
+<line x1="8052" y1="200" x2="8182" y2="200" stroke="black"/>
+<line x1="8052" y1="200" x2="8182" y2="200" stroke="black"/>
+<text x="8052" y="240">
+tempo-village-house-store.cfg
+</text>
+<line x1="8184" y1="200" x2="8314" y2="200" stroke="black"/>
+<line x1="8184" y1="200" x2="8314" y2="200" stroke="black"/>
+<text x="8184" y="220">
+tempo-docks.cfg
+</text>
+<line x1="8316" y1="200" x2="8446" y2="200" stroke="black"/>
+<line x1="8316" y1="200" x2="8446" y2="200" stroke="black"/>
+<text x="8316" y="240">
+forest-crossroads.cfg
+</text>
+<line x1="8448" y1="200" x2="8578" y2="200" stroke="black"/>
+<line x1="8448" y1="200" x2="8578" y2="200" stroke="black"/>
+<text x="8448" y="220">
+twisted-trees.cfg
+</text>
+<text x="8448" y="195">
+white_swaying_flower
+</text>
+<text x="8448" y="175">
+snodge_red
+</text>
+<text x="8448" y="155">
+moth_small
+</text>
+<line x1="8580" y1="200" x2="8710" y2="200" stroke="black"/>
+<line x1="8580" y1="200" x2="8710" y2="200" stroke="black"/>
+<text x="8580" y="240">
+eerie-arbor.cfg
+</text>
+<text x="8580" y="135">
+forest_shooting_plant_huge
+</text>
+<text x="8580" y="115">
+forest_shooting_plant_wallmounted
+</text>
+<line x1="8712" y1="200" x2="8842" y2="200" stroke="black"/>
+<line x1="8712" y1="200" x2="8842" y2="200" stroke="black"/>
+<text x="8712" y="220">
+gloomy-glade.cfg
+</text>
+<text x="8712" y="95">
+moth_big
+</text>
+<line x1="8844" y1="200" x2="8974" y2="200" stroke="black"/>
+<line x1="8844" y1="200" x2="8974" y2="200" stroke="black"/>
+<text x="8844" y="240">
+perilous-precipice-fall.cfg
+</text>
+<line x1="8976" y1="200" x2="9106" y2="200" stroke="black"/>
+<line x1="8976" y1="200" x2="9106" y2="200" stroke="black"/>
+<text x="8976" y="220">
+tumultuous-tunnel.cfg
+</text>
+<line x1="9108" y1="200" x2="9238" y2="200" stroke="black"/>
+<line x1="9108" y1="200" x2="9238" y2="200" stroke="black"/>
+<text x="9108" y="240">
+boundless-boughs.cfg
+</text>
+<line x1="9240" y1="200" x2="9370" y2="200" stroke="black"/>
+<line x1="9240" y1="200" x2="9370" y2="200" stroke="black"/>
+<text x="9240" y="220">
+luminous-lake.cfg
+</text>
+<text x="9240" y="195">
+zoomer
+</text>
+<text x="9240" y="175">
+orloff
+</text>
+<text x="9240" y="155">
+hortlebort_grey
+</text>
+<line x1="9372" y1="200" x2="9502" y2="200" stroke="black"/>
+<line x1="9372" y1="200" x2="9502" y2="200" stroke="black"/>
+<text x="9372" y="240">
+trembling-treetops.cfg
+</text>
+<line x1="9504" y1="200" x2="9634" y2="200" stroke="black"/>
+<line x1="9504" y1="200" x2="9634" y2="200" stroke="black"/>
+<text x="9504" y="220">
+celadon-clearing.cfg
+</text>
+<text x="9504" y="135">
+gazer_grey
+</text>
+<line x1="9636" y1="200" x2="9766" y2="200" stroke="black"/>
+<line x1="9636" y1="200" x2="9766" y2="200" stroke="black"/>
+<text x="9636" y="240">
+forgotten-falls.cfg
+</text>
+<line x1="9768" y1="200" x2="9898" y2="200" stroke="black"/>
+<line x1="9768" y1="200" x2="9898" y2="200" stroke="black"/>
+<text x="9768" y="220">
+glowing-gate.cfg
+</text>
+<line x1="9900" y1="200" x2="10030" y2="200" stroke="black"/>
+<line x1="9900" y1="200" x2="10030" y2="200" stroke="black"/>
+<text x="9900" y="240">
+perilous-precipice.cfg
+</text>
+<text x="9900" y="115">
+moth_boss
+</text>
+<line x1="10032" y1="200" x2="10162" y2="200" stroke="black"/>
+<line x1="10032" y1="200" x2="10162" y2="200" stroke="black"/>
+<text x="10032" y="220">
+pinecone-park.cfg
+</text>
+<line x1="10164" y1="200" x2="10294" y2="200" stroke="black"/>
+<line x1="10164" y1="200" x2="10294" y2="200" stroke="black"/>
+<text x="10164" y="240">
+prosperas-promontory.cfg
+</text>
+<line x1="10296" y1="200" x2="10426" y2="200" stroke="black"/>
+<line x1="10296" y1="200" x2="10426" y2="200" stroke="black"/>
+<text x="10296" y="220">
+prosperas-house.cfg
+</text>
+<text x="10296" y="95">
+gazer_boss
+</text>
+<line x1="10428" y1="200" x2="10558" y2="200" stroke="black"/>
+<line x1="10428" y1="200" x2="10558" y2="200" stroke="black"/>
+<text x="10428" y="240">
+prosperas-workshop.cfg
+</text>
+<line x1="10560" y1="200" x2="10690" y2="200" stroke="black"/>
+<line x1="10560" y1="200" x2="10690" y2="200" stroke="black"/>
+<text x="10560" y="220">
+the-shaft.cfg
+</text>
+<line x1="10692" y1="200" x2="10822" y2="200" stroke="black"/>
+<line x1="10692" y1="200" x2="10822" y2="200" stroke="black"/>
+<text x="10692" y="240">
+the-200-shoes.cfg
+</text>
+<line x1="10824" y1="200" x2="10954" y2="200" stroke="black"/>
+<line x1="10824" y1="200" x2="10954" y2="200" stroke="black"/>
+<text x="10824" y="220">
+the-500-feet.cfg
+</text>
+<text x="10824" y="195">
+bat_red
+</text>
+<line x1="10956" y1="200" x2="11086" y2="200" stroke="black"/>
+<line x1="10956" y1="200" x2="11086" y2="200" stroke="black"/>
+<text x="10956" y="240">
+musty-mine.cfg
+</text>
+<text x="10956" y="175">
+moth_black
+</text>
+<text x="10956" y="155">
+red_spikebug
+</text>
+<line x1="11088" y1="200" x2="11218" y2="200" stroke="black"/>
+<line x1="11088" y1="200" x2="11218" y2="200" stroke="black"/>
+<text x="11088" y="220">
+musty-pit.cfg
+</text>
+<line x1="11220" y1="200" x2="11350" y2="200" stroke="black"/>
+<line x1="11220" y1="200" x2="11350" y2="200" stroke="black"/>
+<text x="11220" y="240">
+gazer-boss.cfg
+</text>
+<line x1="11352" y1="200" x2="11482" y2="200" stroke="black"/>
+<line x1="11352" y1="200" x2="11482" y2="200" stroke="black"/>
+<text x="11352" y="220">
+gazer-boss-test.cfg
+</text>
+<line x1="11484" y1="200" x2="11614" y2="200" stroke="black"/>
+<line x1="11484" y1="200" x2="11614" y2="200" stroke="black"/>
+<text x="11484" y="240">
+gazer-boss-enclave.cfg
+</text>
+<line x1="11616" y1="200" x2="11746" y2="200" stroke="black"/>
+<line x1="11616" y1="200" x2="11746" y2="200" stroke="black"/>
+<text x="11616" y="220">
+tempo-bridge.cfg
+</text>
+<line x1="11748" y1="200" x2="11878" y2="200" stroke="black"/>
+<line x1="11748" y1="200" x2="11878" y2="200" stroke="black"/>
+<text x="11748" y="240">
+sweltering-swamp.cfg
+</text>
+<text x="11748" y="135">
+mushroom_shooter_red
+</text>
+<text x="11748" y="115">
+mushroom_captosser_blue
+</text>
+<text x="11748" y="95">
+rabbit_green
+</text>
+<line x1="11880" y1="200" x2="12010" y2="200" stroke="black"/>
+<line x1="11880" y1="200" x2="12010" y2="200" stroke="black"/>
+<text x="11880" y="220">
+bothersome-bog.cfg
+</text>
+<text x="11880" y="195">
+mushroom_sponge_cloud_shooter
+</text>
+<line x1="12012" y1="200" x2="12142" y2="200" stroke="black"/>
+<line x1="12012" y1="200" x2="12142" y2="200" stroke="black"/>
+<text x="12012" y="240">
+moribund-muck.cfg
+</text>
+<text x="12012" y="175">
+mushroom_jellyfish_spawner
+</text>
+<text x="12012" y="155">
+mushroom_jellyfish
+</text>
+<line x1="12144" y1="200" x2="12274" y2="200" stroke="black"/>
+<line x1="12144" y1="200" x2="12274" y2="200" stroke="black"/>
+<text x="12144" y="220">
+murky-mire.cfg
+</text>
+<text x="12144" y="135">
+ploompus
+</text>
+<text x="12144" y="115">
+finch
+</text>
+<line x1="12276" y1="200" x2="12406" y2="200" stroke="black"/>
+<line x1="12276" y1="200" x2="12406" y2="200" stroke="black"/>
+<text x="12276" y="240">
+putrid-pools.cfg
+</text>
+<text x="12276" y="95">
+mushroom_grabber
+</text>
+<text x="12276" y="195">
+skeeter_controller
+</text>
+<text x="12276" y="175">
+skeeter
+</text>
+<line x1="12408" y1="200" x2="12538" y2="200" stroke="black"/>
+<line x1="12408" y1="200" x2="12538" y2="200" stroke="black"/>
+<text x="12408" y="220">
+wearisome-wetlands.cfg
+</text>
+<line x1="12540" y1="200" x2="12670" y2="200" stroke="black"/>
+<line x1="12540" y1="200" x2="12670" y2="200" stroke="black"/>
+<text x="12540" y="240">
+caustic-cauchemar.cfg
+</text>
+<line x1="12672" y1="200" x2="12802" y2="200" stroke="black"/>
+<line x1="12672" y1="200" x2="12802" y2="200" stroke="black"/>
+<text x="12672" y="220">
+the-empty-place.cfg
+</text>
+<line x1="12804" y1="200" x2="12934" y2="200" stroke="black"/>
+<line x1="12804" y1="200" x2="12934" y2="200" stroke="black"/>
+<text x="12804" y="240">
+mushroom-boss.cfg
+</text>
+<text x="12804" y="155">
+mushroom_boss
+</text>
+<line x1="12936" y1="200" x2="13066" y2="200" stroke="black"/>
+<line x1="12936" y1="200" x2="13066" y2="200" stroke="black"/>
+<text x="12936" y="220">
+relative-respite.cfg
+</text>
+<line x1="13068" y1="200" x2="13198" y2="200" stroke="black"/>
+<line x1="13068" y1="200" x2="13198" y2="200" stroke="black"/>
+<text x="13068" y="240">
+ravenish-ravine.cfg
+</text>
+<line x1="13200" y1="200" x2="13330" y2="200" stroke="black"/>
+<line x1="13200" y1="200" x2="13330" y2="200" stroke="black"/>
+<text x="13200" y="220">
+corrosive-climb.cfg
+</text>
+<line x1="13332" y1="200" x2="13462" y2="200" stroke="black"/>
+<line x1="13332" y1="200" x2="13462" y2="200" stroke="black"/>
+<text x="13332" y="240">
+ignominous-interlude.cfg
+</text>
+<line x1="13464" y1="200" x2="13594" y2="200" stroke="black"/>
+<line x1="13464" y1="200" x2="13594" y2="200" stroke="black"/>
+<text x="13464" y="220">
+golden-glen.cfg
+</text>
+<line x1="13596" y1="200" x2="13726" y2="200" stroke="black"/>
+<line x1="13596" y1="200" x2="13726" y2="200" stroke="black"/>
+<text x="13596" y="240">
+bon-bosque.cfg
+</text>
+<line x1="13728" y1="200" x2="13858" y2="200" stroke="black"/>
+<line x1="13728" y1="200" x2="13858" y2="200" stroke="black"/>
+<text x="13728" y="220">
+rocky-roots.cfg
+</text>
+<text x="13728" y="135">
+maggot_white_controller
+</text>
+<text x="13728" y="115">
+maggot_white
+</text>
+<line x1="13860" y1="200" x2="13990" y2="200" stroke="black"/>
+<line x1="13860" y1="200" x2="13990" y2="200" stroke="black"/>
+<text x="13860" y="240">
+caverns-of-holes.cfg
+</text>
+<text x="13860" y="95">
+ant_flying_wallcling
+</text>
+<line x1="13992" y1="200" x2="14122" y2="200" stroke="black"/>
+<line x1="13992" y1="200" x2="14122" y2="200" stroke="black"/>
+<text x="13992" y="220">
+underground-pool.cfg
+</text>
+<line x1="14124" y1="200" x2="14254" y2="200" stroke="black"/>
+<line x1="14124" y1="200" x2="14254" y2="200" stroke="black"/>
+<text x="14124" y="240">
+darkness-central.cfg
+</text>
+<text x="14124" y="195">
+maggot_grey
+</text>
+<text x="14124" y="175">
+maggot_grey_controller
+</text>
+<line x1="14256" y1="200" x2="14386" y2="200" stroke="black"/>
+<line x1="14256" y1="200" x2="14386" y2="200" stroke="black"/>
+<text x="14256" y="220">
+bombing-fools.cfg
+</text>
+<line x1="14388" y1="200" x2="14518" y2="200" stroke="black"/>
+<line x1="14388" y1="200" x2="14518" y2="200" stroke="black"/>
+<text x="14388" y="240">
+hidden-depths.cfg
+</text>
+<line x1="14520" y1="200" x2="14650" y2="200" stroke="black"/>
+<line x1="14520" y1="200" x2="14650" y2="200" stroke="black"/>
+<text x="14520" y="220">
+watery-alley.cfg
+</text>
+<line x1="14652" y1="200" x2="14782" y2="200" stroke="black"/>
+<line x1="14652" y1="200" x2="14782" y2="200" stroke="black"/>
+<text x="14652" y="240">
+subterranean-scuffle.cfg
+</text>
+<text x="14652" y="155">
+spikebug_blue
+</text>
+<text x="14652" y="135">
+worm_jumping
+</text>
+<line x1="14784" y1="200" x2="14914" y2="200" stroke="black"/>
+<line x1="14784" y1="200" x2="14914" y2="200" stroke="black"/>
+<text x="14784" y="220">
+plagued-mine.cfg
+</text>
+<line x1="14916" y1="200" x2="15046" y2="200" stroke="black"/>
+<line x1="14916" y1="200" x2="15046" y2="200" stroke="black"/>
+<text x="14916" y="240">
+bug-mining.cfg
+</text>
+<line x1="15048" y1="200" x2="15178" y2="200" stroke="black"/>
+<line x1="15048" y1="200" x2="15178" y2="200" stroke="black"/>
+<text x="15048" y="220">
+fast-lane.cfg
+</text>
+<line x1="15180" y1="200" x2="15310" y2="200" stroke="black"/>
+<line x1="15180" y1="200" x2="15310" y2="200" stroke="black"/>
+<text x="15180" y="240">
+hanging-platforms.cfg
+</text>
+<text x="15180" y="115">
+hopper_armored
+</text>
+<line x1="15312" y1="200" x2="15442" y2="200" stroke="black"/>
+<line x1="15312" y1="200" x2="15442" y2="200" stroke="black"/>
+<text x="15312" y="220">
+blind-alley.cfg
+</text>
+<text x="15312" y="95">
+ant_flying_glow
+</text>
+<line x1="15444" y1="200" x2="15574" y2="200" stroke="black"/>
+<line x1="15444" y1="200" x2="15574" y2="200" stroke="black"/>
+<text x="15444" y="240">
+dungeon-gateway.cfg
+</text>
+<line x1="15576" y1="200" x2="15706" y2="200" stroke="black"/>
+<line x1="15576" y1="200" x2="15706" y2="200" stroke="black"/>
+<text x="15576" y="220">
+dungeon-entrance.cfg
+</text>
+<text x="15576" y="195">
+aiming_cannon
+</text>
+<text x="15576" y="175">
+cannon
+</text>
+<text x="15576" y="155">
+kitty_gun_elite
+</text>
+<text x="15576" y="135">
+kitty_spear_elite
+</text>
+<line x1="15708" y1="200" x2="15838" y2="200" stroke="black"/>
+<line x1="15708" y1="200" x2="15838" y2="200" stroke="black"/>
+<text x="15708" y="240">
+milgrams-basement-junction.cfg
+</text>
+<line x1="15840" y1="200" x2="15970" y2="200" stroke="black"/>
+<line x1="15840" y1="200" x2="15970" y2="200" stroke="black"/>
+<text x="15840" y="220">
+dungeon-storerooms.cfg
+</text>
+<line x1="15972" y1="200" x2="16102" y2="200" stroke="black"/>
+<line x1="15972" y1="200" x2="16102" y2="200" stroke="black"/>
+<text x="15972" y="240">
+central-services.cfg
+</text>
+<line x1="16104" y1="200" x2="16234" y2="200" stroke="black"/>
+<line x1="16104" y1="200" x2="16234" y2="200" stroke="black"/>
+<text x="16104" y="220">
+catfactory-catwalk.cfg
+</text>
+<text x="16104" y="115">
+spiked_block
+</text>
+<text x="16104" y="95">
+milgram_block_spawner
+</text>
+<line x1="16236" y1="200" x2="16366" y2="200" stroke="black"/>
+<line x1="16236" y1="200" x2="16366" y2="200" stroke="black"/>
+<text x="16236" y="240">
+kitty-factory-maze.cfg
+</text>
+<line x1="16368" y1="200" x2="16498" y2="200" stroke="black"/>
+<line x1="16368" y1="200" x2="16498" y2="200" stroke="black"/>
+<text x="16368" y="220">
+kitty-factory.cfg
+</text>
+<text x="16368" y="195">
+factory_spawner
+</text>
+<text x="16368" y="175">
+factory_remover
+</text>
+<line x1="16500" y1="200" x2="16630" y2="200" stroke="black"/>
+<line x1="16500" y1="200" x2="16630" y2="200" stroke="black"/>
+<text x="16500" y="240">
+kitty-factory-upper.cfg
+</text>
+<line x1="16632" y1="200" x2="16762" y2="200" stroke="black"/>
+<line x1="16632" y1="200" x2="16762" y2="200" stroke="black"/>
+<text x="16632" y="220">
+long-plastic-hallway.cfg
+</text>
+<line x1="16764" y1="200" x2="16894" y2="200" stroke="black"/>
+<line x1="16764" y1="200" x2="16894" y2="200" stroke="black"/>
+<text x="16764" y="240">
+dungeon-storeroom-treasure-chamber.cfg
+</text>
+<line x1="16896" y1="200" x2="17026" y2="200" stroke="black"/>
+<line x1="16896" y1="200" x2="17026" y2="200" stroke="black"/>
+<text x="16896" y="220">
+north-courtyard.cfg
+</text>
+<line x1="17028" y1="200" x2="17158" y2="200" stroke="black"/>
+<line x1="17028" y1="200" x2="17158" y2="200" stroke="black"/>
+<text x="17028" y="240">
+moonlit-ramparts.cfg
+</text>
+<text x="17028" y="155">
+trap_door
+</text>
+<text x="17028" y="135">
+kitty_sniper
+</text>
+<text x="17028" y="115">
+kitty_ninja
+</text>
+<line x1="17160" y1="200" x2="17290" y2="200" stroke="black"/>
+<line x1="17160" y1="200" x2="17290" y2="200" stroke="black"/>
+<text x="17160" y="220">
+kitty-dormitory.cfg
+</text>
+<line x1="17292" y1="200" x2="17422" y2="200" stroke="black"/>
+<line x1="17292" y1="200" x2="17422" y2="200" stroke="black"/>
+<text x="17292" y="240">
+kitty-kitchen.cfg
+</text>
+<line x1="17424" y1="200" x2="17554" y2="200" stroke="black"/>
+<line x1="17424" y1="200" x2="17554" y2="200" stroke="black"/>
+<text x="17424" y="220">
+suboptimal-design.cfg
+</text>
+<line x1="17556" y1="200" x2="17686" y2="200" stroke="black"/>
+<line x1="17556" y1="200" x2="17686" y2="200" stroke="black"/>
+<text x="17556" y="240">
+platform-peril.cfg
+</text>
+<text x="17556" y="95">
+wartfly
+</text>
+<line x1="17688" y1="200" x2="17818" y2="200" stroke="black"/>
+<line x1="17688" y1="200" x2="17818" y2="200" stroke="black"/>
+<text x="17688" y="220">
+killer-bunnies.cfg
+</text>
+<text x="17688" y="195">
+milgram_slab
+</text>
+<line x1="17820" y1="200" x2="17950" y2="200" stroke="black"/>
+<line x1="17820" y1="200" x2="17950" y2="200" stroke="black"/>
+<text x="17820" y="240">
+burning-stone.cfg
+</text>
+<line x1="17952" y1="200" x2="18082" y2="200" stroke="black"/>
+<line x1="17952" y1="200" x2="18082" y2="200" stroke="black"/>
+<text x="17952" y="220">
+dark-corridor.cfg
+</text>
+<line x1="18084" y1="200" x2="18214" y2="200" stroke="black"/>
+<line x1="18084" y1="200" x2="18214" y2="200" stroke="black"/>
+<text x="18084" y="240">
+dungeon-crawling.cfg
+</text>
+<text x="18084" y="175">
+kitty_robot
+</text>
+<line x1="18216" y1="200" x2="18346" y2="200" stroke="black"/>
+<line x1="18216" y1="200" x2="18346" y2="200" stroke="black"/>
+<text x="18216" y="220">
+dungeon-blocks.cfg
+</text>
+<line x1="18348" y1="200" x2="18478" y2="200" stroke="black"/>
+<line x1="18348" y1="200" x2="18478" y2="200" stroke="black"/>
+<text x="18348" y="240">
+milgrams-throne-room-entrance.cfg
+</text>
+<line x1="18480" y1="200" x2="18610" y2="200" stroke="black"/>
+<line x1="18480" y1="200" x2="18610" y2="200" stroke="black"/>
+<text x="18480" y="220">
+milgrams-throne-room.cfg
+</text>
 
 </svg>
