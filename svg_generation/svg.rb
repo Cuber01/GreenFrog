@@ -7,7 +7,6 @@
 #
 #
 #   UI:
-#     - Finish the basic drawing
 #     - Tag lines as levels  
 #     - Make it work with our info       
 #     - Display full info about levels
