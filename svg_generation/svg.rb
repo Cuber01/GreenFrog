@@ -1,23 +1,31 @@
 #//TODO - 
-#
-#   ORGANIZE:
-#      - Change for to each
-#      - Add comments for users
-#
-#
-#   UI:
-#     - Tag lines as levels      
-#     - Display full info about levels
-#     - Port to html
-#     - Make it interactable and display info better
-#     - Add images
-#     - napisy pod kątem
+=begin
+   ORGANIZE:
+      - Add comments for users
 
-#   DATA:
-#       - Update Progression.json
-#       - Add a way to get images
-#       - Ignore some enemies + special tweaks
-# 
+
+   UI:    
+     - Port to html
+     - Make it interactable and display info better
+     - Add images
+     - Display additional info - sectors, heart pieces, abilities, items
+     - napisy pod kątem
+
+   DATA:
+       - Get additional info - heart pieces, abilities, items
+       - Update Progression.json
+       - Add a way to get images
+       - Ignore some enemies + special tweaks
+  
+      WRONG DATA:
+         - nenes-house-interior.cfg should be empty
+         - owl in seluded-hut-interiror.cfg
+         - nort tower bad index
+=end 
+
+
+
+
 # $levels = [
 #   ["seaside", 0, "bonus"],
 #   ["crevice village", 1],
