@@ -80,7 +80,7 @@
         "airplane-boss.cfg"
     ],
     [
-        "owl",
+        "owl", 
         "secluded-hut-interior.cfg"
     ],
     [
@@ -267,7 +267,7 @@
         "skeeter_controller",
         "putrid-pools.cfg"
     ],
-    [
+    [  
         "skeeter",
         "putrid-pools.cfg"
     ],
@@ -275,7 +275,7 @@
         "mushroom_boss",
         "mushroom-boss.cfg"
     ],
-    [
+    [ 
         "maggot_white_controller",
         "rocky-roots.cfg"
     ],
@@ -291,7 +291,7 @@
         "maggot_grey",
         "darkness-central.cfg"
     ],
-    [
+    [ 
         "maggot_grey_controller",
         "darkness-central.cfg"
     ],
@@ -340,7 +340,7 @@
         "kitty-factory.cfg"
     ],
     [
-        "factory_remover",
+        "factory_remover", 
         "kitty-factory.cfg"
     ],
     [
