@@ -44,7 +44,8 @@ $non_enemies = [
      "semiguided_missile",
      "spore_shooting_plant.cfg",
      "spider_silk",
-     "factory_remover"]
+     "factory_remover",
+    "spore_shooting_plant"]
 
 
 $encountered_enemies = []
@@ -151,11 +152,11 @@ def GetEnemyImages(enemy)
 
 
                     #puts File.basename($enemy_prototypes[j], '.cfg')
-                    puts prototype_data
+                    # puts prototype_data
 
 
                     if File.basename($enemy_prototypes[j], '.cfg') == prototype_data then
-                        puts "HEY"
+                        
                         File.open $enemy_prototypes[j] do |file|
                             rect_raw = file.find { |line| line =~ /rect: \[[0-9]+\,[0-9]+\,[0-9]+\,[0-9]+\]\,/ }
                             rect_data = rect_raw.split("[").last.split("]").first
@@ -244,15 +245,11 @@ def SelectLevelForSearch()
 end
 
 def ExcludeNonEnemies()
-    temp_enemy_images = []
 
     $enemies = $enemies - $non_enemies
     
-    $enemy_images.each do | subtable |
-        temp_enemy_images << ( subtable - $non_enemies )
-    end
+    $enemy_images = $enemy_images - [[0]]
 
-    $enemy_images = temp_enemy_images
 end
 
 def SearchLevel(level_path)
@@ -293,7 +290,7 @@ def main()
 
 
     #puts $first_appearence.to_s
-   # puts $enemy_images.to_s
+   puts $enemy_images.to_s
 
 end
 

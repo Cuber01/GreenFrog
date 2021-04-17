@@ -1,153 +1,422 @@
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-stationary_vulnerable
-spider
-spider
-spider
-spider
-spider
-spider
-spider
-spider
-spider
-spider
-HEY
-spider
-spider
-spider
-maggot
-maggot
-maggot
-maggot
-maggot
-HEY
-maggot
-maggot
-maggot
-maggot
-maggot
-maggot
-maggot
-maggot
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-HEY
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-HEY
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-moth_bomber
-maggot
-maggot
-maggot
-maggot
-maggot
-HEY
-maggot
-maggot
-maggot
-maggot
-maggot
-maggot
-maggot
-maggot
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-HEY
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-HEY
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-squirrel
-HEY
-squirrel
-bat
-HEY
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-HEY
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
-bat
+[
+    [
+        "kitty_robot",
+        "1,43,46,83"
+    ],
+    [
+        "mushroom_boss",
+        "0,0,159,159"
+    ],
+    [
+        "airplane_boss",
+        "1,1,69,69"
+    ],
+    [
+        "gazer_boss",
+        "1,1,125,125"
+    ],
+    [
+        "moth_boss",
+        "0,0,191,191"
+    ],
+    [
+        "gazer_boss_manifold",
+        "0,0,139,139"
+    ],
+    [
+        "milgram",
+        "8,7,70,74"
+    ],
+    [
+        "fish_blue_darter",
+        "2,1,42,29"
+    ],
+    [
+        "fish_green",
+        "2,1,42,29"
+    ],
+    [
+        "fish_purple",
+        "2,1,42,29"
+    ],
+    [
+        "spiked_block",
+        "0,0,63,63"
+    ],
+    [
+        "aiming_cannon",
+        "3,77,36,110"
+    ],
+    [
+        "retracting_spike_machine",
+        "0,0,15,47"
+    ],
+    [
+        "trap_door",
+        "32,64,127,127"
+    ],
+    [
+        "cannon",
+        "3,116,51,154"
+    ],
+    [
+        "zoomer",
+        "1,1,29,29"
+    ],
+    [
+        "orloff",
+        "1,1,14,14"
+    ],
+    [
+        "white_swaying_flower",
+        "76,5,120,49"
+    ],
+    [
+        "spitting_flower",
+        "1,1,43,37"
+    ],
+    [
+        "helicopter_plant",
+        "9,11,24,25"
+    ],
+    [
+        "super_shooting_plant",
+        "2,2,28,28"
+    ],
+    [
+        "starburst_shooting_plant",
+        "2,2,28,28"
+    ],
+    [
+        "shooting_plant",
+        "2,29,28,52"
+    ],
+    [
+        "forest_shooting_plant_huge",
+        "1,1,68,42"
+    ],
+    [
+        "pollen_impact_particle",
+        "124,2,134,12"
+    ],
+    [
+        "forest_shooting_plant_wallmounted",
+        "1,1,34,34"
+    ],
+    [
+        "pricklestalk_green",
+        "1,85,38,122"
+    ],
+    [
+        "plasma_beam_plant",
+        "1,62,58,119"
+    ],
+    [
+        "mushroom_grabber",
+        "0,0,44,44"
+    ],
+    [
+        "ploompus",
+        "1,1,58,58"
+    ],
+    [
+        "mushroom_jellyfish_spawner",
+        "1,1,47,63"
+    ],
+    [
+        "mushroom_jellyfish",
+        "1,1,27,34"
+    ],
+    [
+        "mushroom_spore_puffer",
+        "1,1,54,62"
+    ],
+    [
+        "mushroom_sponge_cloud_shooter",
+        "1,1,45,46"
+    ],
+    [
+        "mushroom_shooter_red",
+        "1,84,31,120"
+    ],
+    [
+        "mushroom_captosser_blue",
+        "1,387,31,423"
+    ],
+    [
+        "snodge_red",
+        "123,45,147,72"
+    ],
+    [
+        "sinusoidal_flier_shooter",
+        "1,1,18,28"
+    ],
+    [
+        "mushroom_missile",
+        "1,35,31,65"
+    ],
+    [
+        "gazer_grey",
+        "1,1,41,41"
+    ],
+    [
+        "plasma_shooter",
+        "1,62,58,119"
+    ],
+    [
+        "stagmite",
+        "3,1,27,28"
+    ],
+    [
+        "gazer_small_bare_harmless",
+        "1,1,25,28"
+    ],
+    [
+        "gazer_small_bare",
+        "1,1,39,39"
+    ],
+    [
+        "spider_black",
+        "287,2,343,57"
+    ],
+    [
+        "anthill",
+        "1,1,39,33"
+    ],
+    [
+        "ant_flying_glow",
+        "3,2,27,29"
+    ],
+    [
+        "ant_platform_red",
+        "149,1,173,28"
+    ],
+    [
+        "maggot_grey",
+        "2,95,29,122"
+    ],
+    [
+        "spider_red",
+        "78,12,91,25"
+    ],
+    [
+        "moth_brown",
+        "208,1,246,39"
+    ],
+    [
+        "ant_black",
+        "149,1,173,28"
+    ],
+    [
+        "hopper_armored",
+        "1,128,32,155"
+    ],
+    [
+        "moth_big",
+        "1,1,44,44"
+    ],
+    [
+        "beetle_water",
+        "3,1,27,28"
+    ],
+    [
+        "ant_flying_wallcling",
+        "115,127,139,154"
+    ],
+    [
+        "ant_flying_gold",
+        "208,1,246,39"
+    ],
+    [
+        "beetle_black_armor",
+        "3,1,27,28"
+    ],
+    [
+        "spikebug_blue",
+        "34,2,62,29"
+    ],
+    [
+        "ant_flying_black",
+        "208,1,246,39"
+    ],
+    [
+        "fumper_flapper",
+        "1,1,31,30"
+    ],
+    [
+        "beetle_black",
+        "3,1,27,28"
+    ],
+    [
+        "moth_bomber_bomb",
+        "115,127,139,154"
+    ],
+    [
+        "fumper_hopper",
+        "1,1,31,30"
+    ],
+    [
+        "ant_flying_platform_red",
+        "208,1,246,39"
+    ],
+    [
+        "skeeter",
+        "1,1,20,24"
+    ],
+    [
+        "hortlebort_grey",
+        "1,38,34,71"
+    ],
+    [
+        "worm_jumping",
+        "0,64,31,95"
+    ],
+    [
+        "ant_red",
+        "149,1,173,28"
+    ],
+    [
+        "moth_black",
+        "208,1,246,39"
+    ],
+    [
+        "hornbug_red",
+        "208,1,246,39"
+    ],
+    [
+        "moth_small",
+        "3,2,35,32"
+    ],
+    [
+        "jellybug_green",
+        "1,1,37,29"
+    ],
+    [
+        "red_spikebug",
+        "34,2,62,29"
+    ],
+    [
+        "maggot_white",
+        "2,95,29,122"
+    ],
+    [
+        "ant_flying_red",
+        "208,1,246,39"
+    ],
+    [
+        "ant_gold",
+        "149,1,173,28"
+    ],
+    [
+        "wartfly",
+        "2,2,32,32"
+    ],
+    [
+        "kitty_sword",
+        "1,1,41,36"
+    ],
+    [
+        "kitty_sniper",
+        "1,83,68,151"
+    ],
+    [
+        "milgram_pod_launcher",
+        "1,1,49,53"
+    ],
+    [
+        "bunny_ball_tosser",
+        "1,1,62,62"
+    ],
+    [
+        "kitty_ninja",
+        "1,1,64,39"
+    ],
+    [
+        "factory_spawner",
+        "1,1,26,23"
+    ],
+    [
+        "kitty_sniper_foreground",
+        "1,1,68,71"
+    ],
+    [
+        "milgram_block_spawner",
+        "208,0,255,31"
+    ],
+    [
+        "kitty_spear",
+        "1,1,41,36"
+    ],
+    [
+        "milgram_slab",
+        "1,1,47,45"
+    ],
+    [
+        "kitty_gun_elite",
+        "1,1,51,36"
+    ],
+    [
+        "kitty_gun",
+        "1,1,51,36"
+    ],
+    [
+        "kitty_sniper_background",
+        "1,1,68,71"
+    ],
+    [
+        "milgram_block",
+        "176,33,200,60"
+    ],
+    [
+        "kitty_pilot",
+        "1,1,41,36"
+    ],
+    [
+        "milgram_pod",
+        "3,1,27,28"
+    ],
+    [
+        "kitty_spear_elite",
+        "1,1,41,36"
+    ],
+    [
+        "squirrel_red",
+        "0,0,61,44"
+    ],
+    [
+        "owl_path_following",
+        "1,1,69,55"
+    ],
+    [
+        "squirrel_red_alt",
+        "0,0,61,44"
+    ],
+    [
+        "finch",
+        "1,1,46,34"
+    ],
+    [
+        "squirrel_black",
+        "0,0,61,44"
+    ],
+    [
+        "rabbit_red",
+        "1,1,31,29"
+    ],
+    [
+        "bat_red",
+        "1,1,18,28"
+    ],
+    [
+        "bat_black",
+        "1,1,18,28"
+    ],
+    [
+        "rabbit_green",
+        "1,1,31,29"
+    ],
+    [
+        "rabbit_black",
+        "1,1,31,29"
+    ]
+]
