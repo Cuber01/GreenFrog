@@ -223,18 +223,56 @@ def GetEnemyImages(enemy)
 
         for i in 0...$enemy_images.length do
 
-            # puts File.basename(enemy, '.cfg')
-            # puts $enemy_images[i][0]
-
             if File.basename(enemy, '.cfg') == $enemy_images[i][0] then
-                #puts "NANI"
-                #puts $images_folder
-                #puts image_data
                 $enemy_images[i][2] = $images_folder + image_data
             end
 
         end
     
+    else
+        
+        image_raw = ""
+        prototype_raw = ""
+
+
+        File.open enemy do |file|
+
+            prototype_raw = file.find { |line| line =~ /prototype: \[".*"\]\,/ }
+
+        end
+
+
+        prototype_data = prototype_raw.split('[').last.split(']').first.tr('"', '')
+
+
+
+        for i in 0...$enemy_prototypes.length
+
+            if File.basename($enemy_prototypes[i], '.cfg') == prototype_data then
+                
+                File.open $enemy_prototypes[i] do |file|
+                    image_raw = file.find { |line| line =~ /image: ".*",/ }
+                end
+
+
+                image_data = image_raw.split(": ").last.split(",").first
+                
+                image_data[0] = ""
+                image_data[image_data.length-1] = ""
+               
+        
+                for j in 0...$enemy_images.length do
+
+                    if File.basename(enemy, '.cfg') == $enemy_images[j][0] then
+                        $enemy_images[j][2] = $images_folder + image_data
+                    end
+
+                end
+    
+            end
+
+        end
+
     end
 
 
