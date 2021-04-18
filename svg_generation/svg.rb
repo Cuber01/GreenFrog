@@ -9,8 +9,8 @@
      - Make it interactable and display info better
      - Add images
      - Display additional info - sectors, heart pieces, abilities, items
-     - napisy pod kątem
 
+     
    DATA:
        - Get additional info - heart pieces, abilities, items
        - Update Progression.json

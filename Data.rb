@@ -27,8 +27,7 @@ $non_enemies = [
   "gazer_boss_manifold",
   "trap_door",
   "pollen_impact_particle",
-  "sinusoidal_flier_shooter",
-  "moth_bomber_bomb",
+  "sinusoidal_flier_shooter"
 ]
 
 
@@ -118,7 +117,7 @@ def GetEnemyRects(enemy)
 
             # If rect was found, add the rect value to the array
             if rect_data != "" then
-                $enemy_images[i][1] = rect_data
+                $enemy_images[i][1] = rect_data.split(",").map { |s| s.to_i }
             else
 
                 # If rect was not found, search for prototype and get rect from prototype
@@ -144,7 +143,7 @@ def GetEnemyRects(enemy)
                             rect_raw = file.find { |line| line =~ /rect: \[[0-9]+\,[0-9]+\,[0-9]+\,[0-9]+\]\,/ }
                             rect_data = rect_raw.split("[").last.split("]").first
 
-                            $enemy_images[i][1] = rect_data
+                            $enemy_images[i][1] = rect_data.split(",").map { |s| s.to_i }
                         end
 
                     end
@@ -316,15 +315,27 @@ def SearchLevel(level_path)
 
     ExcludeNonEnemies()
 
+    
+        
     for i in 0...$enemies.length do
 
-        if File.read(level_path).include? $enemies[i] then
-            $first_appearence << [$enemies[i], File.basename(level_path)]
-            $encountered_enemies << $enemies[i]
+        search_v = String( '"type": ' + '"' + $enemies[i] + '"' )
+
+        if File.read(level_path).match( Regexp.new( search_v ) ) then
+           $first_appearence << [$enemies[i], File.basename(level_path)]
+           $encountered_enemies << $enemies[i]
         end
 
     end
 
+    # for i in 0...$enemies.length do
+
+    #     if File.read(level_path).include? $enemies[i] then
+    #       $first_appearence << [$enemies[i], File.basename(level_path)]
+    #        $encountered_enemies << $enemies[i]
+    #     end
+
+    # end
 
     if $encountered_enemies.length > 0 then
 
