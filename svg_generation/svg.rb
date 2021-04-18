@@ -14,7 +14,6 @@
    DATA:
        - Get additional info - heart pieces, abilities, items
        - Update Progression.json
-       - Add a way to get images
        - Ignore some enemies + special tweaks
   
       WRONG DATA:

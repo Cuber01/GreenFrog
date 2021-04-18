@@ -1,29 +1,4 @@
 
-# $enemies_who_dont_want_to_cooperate = [
-#     ["spider_black"],
-#     ["maggot_grey"],
-#     ["moth_brown"],
-#     ["moth_black"],
-#     ["maggot_white"],
-#     ["factory_remover"],
-#     ["squirrel_red"],
-#     ["squirrel_red_alt"],
-#     ["squirrel_black"],
-#     ["bat_red"],
-#     ["bat_black"]
-# ]
-
-=begin
-heres the plan:
-1. if theres no rect
-2. find prototype
-3. go to prototype and find rect
- 
-we will need a list of prototypes probablt only from enemies specialized
-
-=end
-
-
 require 'json'
 
 
@@ -361,19 +336,41 @@ def SearchLevel(level_path)
 
 end
 
+def CombineArrays()
+ 
+    for i in 0...$first_appearence.length do
+    
+        for j in 0...$enemy_images.length do
+
+            if $first_appearence[i][0] == $enemy_images[j][0] then
+                $first_appearence[i][2] = $enemy_images[j][1]
+                $first_appearence[i][3] = $enemy_images[j][2]
+            end
+
+        end 
+    
+    end
+
+end
+
 def main()
 
+    # Get prototypes of enemies, they will help us in getting some of the data that's not overwritten by the main enemy file
     GetEnemyPrototypes()
 
+    # Get folders with levels 
     GetLevelDirs()
 
+    # Get folders with enemies. This method also contains calls to a few function collecting info about enemies - rects, images 
     GetEnemyDirs()
 
+    # Search through levels and get the first appearence of all enemies
     SelectLevelForSearch()
 
+    # Combine info from SelectLevelForSearch() and methods called in GetEnemyDirs()
+    CombineArrays()
 
-    #puts $first_appearence.to_s
-    puts $enemy_images.to_s
+    puts $first_appearence.to_s
 
 end
 
