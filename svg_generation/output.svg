@@ -30,42 +30,22 @@ frogatto-grotto.cfg
 <text x="660" y="240">
 grassy-path.cfg
 </text>
-<text x="660" y="195">
-anthill
-</text>
-<text x="660" y="175">
-ant_black
-</text>
-<text x="660" y="155">
-beetle_black
-</text>
-<text x="660" y="135">
-ant_red
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/anthill.png" height="100" width="100" x="660" y="195"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/ant_black.png" height="100" width="100" x="660" y="175"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/beetle_black.png" height="100" width="100" x="660" y="155"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/ant_red.png" height="100" width="100" x="660" y="135"/>
 <line x1="792" y1="200" x2="922" y2="200" stroke="black"/>
 <line x1="792" y1="200" x2="922" y2="200" stroke="black"/>
 <text x="792" y="220">
 to-nenes-house.cfg
 </text>
-<text x="792" y="115">
-fish_green
-</text>
-<text x="792" y="95">
-beetle_water
-</text>
-<text x="792" y="195">
-ant_flying_black
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/fish_green.png" height="100" width="100" x="792" y="115"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/beetle_water.png" height="100" width="100" x="792" y="95"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/ant_flying_black.png" height="100" width="100" x="792" y="75"/>
 <line x1="924" y1="200" x2="1054" y2="200" stroke="black"/>
 <line x1="924" y1="200" x2="1054" y2="200" stroke="black"/>
 <text x="924" y="240">
 to-nenes-house-inside.cfg
-</text>
-<text x="924" y="175">
-ant_platform_red
-</text>
-<text x="924" y="155">
-ant_gold
 </text>
 <line x1="1056" y1="200" x2="1186" y2="200" stroke="black"/>
 <line x1="1056" y1="200" x2="1186" y2="200" stroke="black"/>
@@ -77,35 +57,19 @@ nenes-basement.cfg
 <text x="1188" y="240">
 bay-overlook.cfg
 </text>
-<text x="1188" y="135">
-fish_blue_darter
-</text>
-<text x="1188" y="115">
-fish_purple
-</text>
-<text x="1188" y="95">
-super_shooting_plant
-</text>
-<text x="1188" y="195">
-shooting_plant
-</text>
-<text x="1188" y="175">
-pricklestalk_green
-</text>
-<text x="1188" y="155">
-hornbug_red
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/fish_blue_darter.png" height="100" width="100" x="1188" y="55"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/fish_purple.png" height="100" width="100" x="1188" y="35"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/super_shooting_plant.png" height="100" width="100" x="1188" y="15"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/shooting_plant.png" height="100" width="100" x="1188" y="195"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/pricklestalk_green.png" height="100" width="100" x="1188" y="175"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/hornbug_red.png" height="100" width="100" x="1188" y="155"/>
 <line x1="1320" y1="200" x2="1450" y2="200" stroke="black"/>
 <line x1="1320" y1="200" x2="1450" y2="200" stroke="black"/>
 <text x="1320" y="220">
 cragland.cfg
 </text>
-<text x="1320" y="135">
-spitting_flower
-</text>
-<text x="1320" y="115">
-helicopter_plant
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/spitting_flower.png" height="100" width="100" x="1320" y="135"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/helicopter_plant.png" height="100" width="100" x="1320" y="115"/>
 <line x1="1452" y1="200" x2="1582" y2="200" stroke="black"/>
 <line x1="1452" y1="200" x2="1582" y2="200" stroke="black"/>
 <text x="1452" y="240">
@@ -116,14 +80,13 @@ lighthouse-ruins.cfg
 <text x="1584" y="220">
 splash-hop.cfg
 </text>
-<text x="1584" y="95">
-beetle_black_armor
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/beetle_black_armor.png" height="100" width="100" x="1584" y="95"/>
 <line x1="1716" y1="200" x2="1846" y2="200" stroke="black"/>
 <line x1="1716" y1="200" x2="1846" y2="200" stroke="black"/>
 <text x="1716" y="240">
 burn-and-bubble.cfg
 </text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/ant_gold.png" height="100" width="100" x="1716" y="75"/>
 <line x1="1848" y1="200" x2="1978" y2="200" stroke="black"/>
 <line x1="1848" y1="200" x2="1978" y2="200" stroke="black"/>
 <text x="1848" y="220">
@@ -134,16 +97,11 @@ stonepipe-flats.cfg
 <text x="1980" y="240">
 stonepipe-meadow.cfg
 </text>
-<text x="1980" y="195">
-ant_flying_platform_red
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/ant_flying_platform_red.png" height="100" width="100" x="1980" y="55"/>
 <line x1="2112" y1="200" x2="2242" y2="200" stroke="black"/>
 <line x1="2112" y1="200" x2="2242" y2="200" stroke="black"/>
 <text x="2112" y="220">
 airplane-boss.cfg
-</text>
-<text x="2112" y="175">
-airplane_boss
 </text>
 <line x1="2244" y1="200" x2="2374" y2="200" stroke="black"/>
 <line x1="2244" y1="200" x2="2374" y2="200" stroke="black"/>
@@ -155,36 +113,24 @@ secluded-hut.cfg
 <text x="2376" y="220">
 secluded-hut-interior.cfg
 </text>
-<text x="2376" y="155">
-owl
-</text>
 <line x1="2508" y1="200" x2="2638" y2="200" stroke="black"/>
 <line x1="2508" y1="200" x2="2638" y2="200" stroke="black"/>
 <text x="2508" y="240">
 the-north-tower.cfg
 </text>
-<text x="2508" y="135">
-milgram
-</text>
-<text x="2508" y="115">
-retracting_spike_machine
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/retracting_spike_machine.png" height="100" width="100" x="2508" y="35"/>
 <line x1="2640" y1="200" x2="2770" y2="200" stroke="black"/>
 <line x1="2640" y1="200" x2="2770" y2="200" stroke="black"/>
 <text x="2640" y="220">
 rock-a-fort.cfg
 </text>
-<text x="2640" y="95">
-fumper_hopper
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/fumper_hopper.png" height="100" width="100" x="2640" y="15"/>
 <line x1="2772" y1="200" x2="2902" y2="200" stroke="black"/>
 <line x1="2772" y1="200" x2="2902" y2="200" stroke="black"/>
 <text x="2772" y="240">
 rock-a-fort-cave.cfg
 </text>
-<text x="2772" y="195">
-bat_black
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/bat_black.png" height="100" width="100" x="2772" y="195"/>
 <line x1="2904" y1="200" x2="3034" y2="200" stroke="black"/>
 <line x1="2904" y1="200" x2="3034" y2="200" stroke="black"/>
 <text x="2904" y="220">
@@ -195,9 +141,7 @@ flooded-caverns.cfg
 <text x="3036" y="240">
 downhill.cfg
 </text>
-<text x="3036" y="175">
-fumper_flapper
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/fumper_flapper.png" height="100" width="100" x="3036" y="175"/>
 <line x1="3168" y1="200" x2="3298" y2="200" stroke="black"/>
 <line x1="3168" y1="200" x2="3298" y2="200" stroke="black"/>
 <text x="3168" y="220">
@@ -217,12 +161,6 @@ chopple-shop-interior.cfg
 <line x1="3564" y1="200" x2="3694" y2="200" stroke="black"/>
 <text x="3564" y="240">
 crevice-village-cave.cfg
-</text>
-<text x="3564" y="155">
-kitty_spear
-</text>
-<text x="3564" y="135">
-kitty_gun
 </text>
 <line x1="3696" y1="200" x2="3826" y2="200" stroke="black"/>
 <line x1="3696" y1="200" x2="3826" y2="200" stroke="black"/>
@@ -244,15 +182,10 @@ crevice-village-central-side-cave.cfg
 <text x="4092" y="240">
 crevice-village-house-1.cfg
 </text>
-<text x="4092" y="115">
-milgram_pod_launcher
-</text>
-<text x="4092" y="95">
-milgram_block
-</text>
-<text x="4092" y="195">
-milgram_pod
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/milgram_pod_launcher.png" height="100" width="100" x="4092" y="155"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/kitty_spear.png" height="100" width="100" x="4092" y="135"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/kitty_gun.png" height="100" width="100" x="4092" y="115"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/milgram_block.png" height="100" width="100" x="4092" y="95"/>
 <line x1="4224" y1="200" x2="4354" y2="200" stroke="black"/>
 <line x1="4224" y1="200" x2="4354" y2="200" stroke="black"/>
 <text x="4224" y="220">
@@ -273,14 +206,13 @@ crevice-village-house-2-basement-backroom.cfg
 <text x="4620" y="240">
 crevice-village-house-4.cfg
 </text>
-<text x="4620" y="175">
-bunny_ball_tosser
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/bunny_ball_tosser.png" height="100" width="100" x="4620" y="75"/>
 <line x1="4752" y1="200" x2="4882" y2="200" stroke="black"/>
 <line x1="4752" y1="200" x2="4882" y2="200" stroke="black"/>
 <text x="4752" y="220">
 crevice-village-house-4-backroom.cfg
 </text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/milgram_pod.png" height="100" width="100" x="4752" y="55"/>
 <line x1="4884" y1="200" x2="5014" y2="200" stroke="black"/>
 <line x1="4884" y1="200" x2="5014" y2="200" stroke="black"/>
 <text x="4884" y="240">
@@ -306,9 +238,6 @@ crevice-village-heights.cfg
 <text x="5412" y="240">
 crevice-village-house-elder.cfg
 </text>
-<text x="5412" y="155">
-kitty_sword
-</text>
 <line x1="5544" y1="200" x2="5674" y2="200" stroke="black"/>
 <line x1="5544" y1="200" x2="5674" y2="200" stroke="black"/>
 <text x="5544" y="220">
@@ -324,18 +253,9 @@ wandering-passage.cfg
 <text x="5808" y="220">
 foreboding-forest.cfg
 </text>
-<text x="5808" y="135">
-starburst_shooting_plant
-</text>
-<text x="5808" y="115">
-squirrel_black
-</text>
-<text x="5808" y="95">
-acorn
-</text>
-<text x="5808" y="195">
-rabbit_black
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/starburst_shooting_plant.png" height="100" width="100" x="5808" y="35"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/squirrel_black.png" height="100" width="100" x="5808" y="15"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/rabbit_black.png" height="100" width="100" x="5808" y="195"/>
 <line x1="5940" y1="200" x2="6070" y2="200" stroke="black"/>
 <line x1="5940" y1="200" x2="6070" y2="200" stroke="black"/>
 <text x="5940" y="240">
@@ -356,18 +276,10 @@ turgid-turn.cfg
 <text x="6336" y="220">
 rocky-road.cfg
 </text>
-<text x="6336" y="175">
-spider_black
-</text>
-<text x="6336" y="155">
-spider_red
-</text>
-<text x="6336" y="135">
-owl_path_following
-</text>
-<text x="6336" y="115">
-rabbit_red
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/spider_black.png" height="100" width="100" x="6336" y="175"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/spider_red.png" height="100" width="100" x="6336" y="155"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/owl_path_following.png" height="100" width="100" x="6336" y="135"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/rabbit_red.png" height="100" width="100" x="6336" y="115"/>
 <line x1="6468" y1="200" x2="6598" y2="200" stroke="black"/>
 <line x1="6468" y1="200" x2="6598" y2="200" stroke="black"/>
 <text x="6468" y="240">
@@ -403,9 +315,7 @@ conveyance-crossing.cfg
 <text x="7260" y="240">
 roadside-retreat.cfg
 </text>
-<text x="7260" y="95">
-squirrel_red
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/squirrel_red.png" height="100" width="100" x="7260" y="95"/>
 <line x1="7392" y1="200" x2="7522" y2="200" stroke="black"/>
 <line x1="7392" y1="200" x2="7522" y2="200" stroke="black"/>
 <text x="7392" y="220">
@@ -451,34 +361,22 @@ forest-crossroads.cfg
 <text x="8448" y="220">
 twisted-trees.cfg
 </text>
-<text x="8448" y="195">
-white_swaying_flower
-</text>
-<text x="8448" y="175">
-snodge_red
-</text>
-<text x="8448" y="155">
-moth_small
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/white_swaying_flower.png" height="100" width="100" x="8448" y="75"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/snodge_red.png" height="100" width="100" x="8448" y="55"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/moth_small.png" height="100" width="100" x="8448" y="35"/>
 <line x1="8580" y1="200" x2="8710" y2="200" stroke="black"/>
 <line x1="8580" y1="200" x2="8710" y2="200" stroke="black"/>
 <text x="8580" y="240">
 eerie-arbor.cfg
 </text>
-<text x="8580" y="135">
-forest_shooting_plant_huge
-</text>
-<text x="8580" y="115">
-forest_shooting_plant_wallmounted
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/forest_shooting_plant_huge.png" height="100" width="100" x="8580" y="15"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/forest_shooting_plant_wallmounted.png" height="100" width="100" x="8580" y="195"/>
 <line x1="8712" y1="200" x2="8842" y2="200" stroke="black"/>
 <line x1="8712" y1="200" x2="8842" y2="200" stroke="black"/>
 <text x="8712" y="220">
 gloomy-glade.cfg
 </text>
-<text x="8712" y="95">
-moth_big
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/moth_big.png" height="100" width="100" x="8712" y="175"/>
 <line x1="8844" y1="200" x2="8974" y2="200" stroke="black"/>
 <line x1="8844" y1="200" x2="8974" y2="200" stroke="black"/>
 <text x="8844" y="240">
@@ -499,15 +397,9 @@ boundless-boughs.cfg
 <text x="9240" y="220">
 luminous-lake.cfg
 </text>
-<text x="9240" y="195">
-zoomer
-</text>
-<text x="9240" y="175">
-orloff
-</text>
-<text x="9240" y="155">
-hortlebort_grey
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/zoomer.png" height="100" width="100" x="9240" y="155"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/orloff.png" height="100" width="100" x="9240" y="135"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/hortlebort_grey.png" height="100" width="100" x="9240" y="115"/>
 <line x1="9372" y1="200" x2="9502" y2="200" stroke="black"/>
 <line x1="9372" y1="200" x2="9502" y2="200" stroke="black"/>
 <text x="9372" y="240">
@@ -518,9 +410,7 @@ trembling-treetops.cfg
 <text x="9504" y="220">
 celadon-clearing.cfg
 </text>
-<text x="9504" y="135">
-gazer_grey
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/gazer_grey.png" height="100" width="100" x="9504" y="95"/>
 <line x1="9636" y1="200" x2="9766" y2="200" stroke="black"/>
 <line x1="9636" y1="200" x2="9766" y2="200" stroke="black"/>
 <text x="9636" y="240">
@@ -536,9 +426,6 @@ glowing-gate.cfg
 <text x="9900" y="240">
 perilous-precipice.cfg
 </text>
-<text x="9900" y="115">
-moth_boss
-</text>
 <line x1="10032" y1="200" x2="10162" y2="200" stroke="black"/>
 <line x1="10032" y1="200" x2="10162" y2="200" stroke="black"/>
 <text x="10032" y="220">
@@ -553,9 +440,6 @@ prosperas-promontory.cfg
 <line x1="10296" y1="200" x2="10426" y2="200" stroke="black"/>
 <text x="10296" y="220">
 prosperas-house.cfg
-</text>
-<text x="10296" y="95">
-gazer_boss
 </text>
 <line x1="10428" y1="200" x2="10558" y2="200" stroke="black"/>
 <line x1="10428" y1="200" x2="10558" y2="200" stroke="black"/>
@@ -577,20 +461,14 @@ the-200-shoes.cfg
 <text x="10824" y="220">
 the-500-feet.cfg
 </text>
-<text x="10824" y="195">
-bat_red
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/bat_red.png" height="100" width="100" x="10824" y="75"/>
 <line x1="10956" y1="200" x2="11086" y2="200" stroke="black"/>
 <line x1="10956" y1="200" x2="11086" y2="200" stroke="black"/>
 <text x="10956" y="240">
 musty-mine.cfg
 </text>
-<text x="10956" y="175">
-moth_black
-</text>
-<text x="10956" y="155">
-red_spikebug
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/moth_black.png" height="100" width="100" x="10956" y="55"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/red_spikebug.png" height="100" width="100" x="10956" y="35"/>
 <line x1="11088" y1="200" x2="11218" y2="200" stroke="black"/>
 <line x1="11088" y1="200" x2="11218" y2="200" stroke="black"/>
 <text x="11088" y="220">
@@ -606,6 +484,7 @@ gazer-boss.cfg
 <text x="11352" y="220">
 gazer-boss-test.cfg
 </text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/gazer_boss.png" height="100" width="100" x="11352" y="15"/>
 <line x1="11484" y1="200" x2="11614" y2="200" stroke="black"/>
 <line x1="11484" y1="200" x2="11614" y2="200" stroke="black"/>
 <text x="11484" y="240">
@@ -621,59 +500,34 @@ tempo-bridge.cfg
 <text x="11748" y="240">
 sweltering-swamp.cfg
 </text>
-<text x="11748" y="135">
-mushroom_shooter_red
-</text>
-<text x="11748" y="115">
-mushroom_captosser_blue
-</text>
-<text x="11748" y="95">
-rabbit_green
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/mushroom_shooter_red.png" height="100" width="100" x="11748" y="195"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/mushroom_captosser_blue.png" height="100" width="100" x="11748" y="175"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/rabbit_green.png" height="100" width="100" x="11748" y="155"/>
 <line x1="11880" y1="200" x2="12010" y2="200" stroke="black"/>
 <line x1="11880" y1="200" x2="12010" y2="200" stroke="black"/>
 <text x="11880" y="220">
 bothersome-bog.cfg
 </text>
-<text x="11880" y="195">
-mushroom_sponge_cloud_shooter
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/mushroom_sponge_cloud_shooter.png" height="100" width="100" x="11880" y="135"/>
 <line x1="12012" y1="200" x2="12142" y2="200" stroke="black"/>
 <line x1="12012" y1="200" x2="12142" y2="200" stroke="black"/>
 <text x="12012" y="240">
 moribund-muck.cfg
 </text>
-<text x="12012" y="175">
-mushroom_jellyfish_spawner
-</text>
-<text x="12012" y="155">
-mushroom_jellyfish
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/mushroom_jellyfish_spawner.png" height="100" width="100" x="12012" y="115"/>
 <line x1="12144" y1="200" x2="12274" y2="200" stroke="black"/>
 <line x1="12144" y1="200" x2="12274" y2="200" stroke="black"/>
 <text x="12144" y="220">
 murky-mire.cfg
 </text>
-<text x="12144" y="135">
-ploompus
-</text>
-<text x="12144" y="115">
-finch
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/ploompus.png" height="100" width="100" x="12144" y="95"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/finch.png" height="100" width="100" x="12144" y="75"/>
 <line x1="12276" y1="200" x2="12406" y2="200" stroke="black"/>
 <line x1="12276" y1="200" x2="12406" y2="200" stroke="black"/>
 <text x="12276" y="240">
 putrid-pools.cfg
 </text>
-<text x="12276" y="95">
-mushroom_grabber
-</text>
-<text x="12276" y="195">
-skeeter_controller
-</text>
-<text x="12276" y="175">
-skeeter
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/mushroom_grabber.png" height="100" width="100" x="12276" y="55"/>
 <line x1="12408" y1="200" x2="12538" y2="200" stroke="black"/>
 <line x1="12408" y1="200" x2="12538" y2="200" stroke="black"/>
 <text x="12408" y="220">
@@ -694,9 +548,7 @@ the-empty-place.cfg
 <text x="12804" y="240">
 mushroom-boss.cfg
 </text>
-<text x="12804" y="155">
-mushroom_boss
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/mushroom_boss.png" height="100" width="100" x="12804" y="35"/>
 <line x1="12936" y1="200" x2="13066" y2="200" stroke="black"/>
 <line x1="12936" y1="200" x2="13066" y2="200" stroke="black"/>
 <text x="12936" y="220">
@@ -732,20 +584,12 @@ bon-bosque.cfg
 <text x="13728" y="220">
 rocky-roots.cfg
 </text>
-<text x="13728" y="135">
-maggot_white_controller
-</text>
-<text x="13728" y="115">
-maggot_white
-</text>
 <line x1="13860" y1="200" x2="13990" y2="200" stroke="black"/>
 <line x1="13860" y1="200" x2="13990" y2="200" stroke="black"/>
 <text x="13860" y="240">
 caverns-of-holes.cfg
 </text>
-<text x="13860" y="95">
-ant_flying_wallcling
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/ant_flying_wallcling.png" height="100" width="100" x="13860" y="15"/>
 <line x1="13992" y1="200" x2="14122" y2="200" stroke="black"/>
 <line x1="13992" y1="200" x2="14122" y2="200" stroke="black"/>
 <text x="13992" y="220">
@@ -755,12 +599,6 @@ underground-pool.cfg
 <line x1="14124" y1="200" x2="14254" y2="200" stroke="black"/>
 <text x="14124" y="240">
 darkness-central.cfg
-</text>
-<text x="14124" y="195">
-maggot_grey
-</text>
-<text x="14124" y="175">
-maggot_grey_controller
 </text>
 <line x1="14256" y1="200" x2="14386" y2="200" stroke="black"/>
 <line x1="14256" y1="200" x2="14386" y2="200" stroke="black"/>
@@ -782,17 +620,13 @@ watery-alley.cfg
 <text x="14652" y="240">
 subterranean-scuffle.cfg
 </text>
-<text x="14652" y="155">
-spikebug_blue
-</text>
-<text x="14652" y="135">
-worm_jumping
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/spikebug_blue.png" height="100" width="100" x="14652" y="195"/>
 <line x1="14784" y1="200" x2="14914" y2="200" stroke="black"/>
 <line x1="14784" y1="200" x2="14914" y2="200" stroke="black"/>
 <text x="14784" y="220">
 plagued-mine.cfg
 </text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/worm_jumping.png" height="100" width="100" x="14784" y="175"/>
 <line x1="14916" y1="200" x2="15046" y2="200" stroke="black"/>
 <line x1="14916" y1="200" x2="15046" y2="200" stroke="black"/>
 <text x="14916" y="240">
@@ -808,17 +642,13 @@ fast-lane.cfg
 <text x="15180" y="240">
 hanging-platforms.cfg
 </text>
-<text x="15180" y="115">
-hopper_armored
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/hopper_armored.png" height="100" width="100" x="15180" y="155"/>
 <line x1="15312" y1="200" x2="15442" y2="200" stroke="black"/>
 <line x1="15312" y1="200" x2="15442" y2="200" stroke="black"/>
 <text x="15312" y="220">
 blind-alley.cfg
 </text>
-<text x="15312" y="95">
-ant_flying_glow
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/ant_flying_glow.png" height="100" width="100" x="15312" y="135"/>
 <line x1="15444" y1="200" x2="15574" y2="200" stroke="black"/>
 <line x1="15444" y1="200" x2="15574" y2="200" stroke="black"/>
 <text x="15444" y="240">
@@ -829,18 +659,9 @@ dungeon-gateway.cfg
 <text x="15576" y="220">
 dungeon-entrance.cfg
 </text>
-<text x="15576" y="195">
-aiming_cannon
-</text>
-<text x="15576" y="175">
-cannon
-</text>
-<text x="15576" y="155">
-kitty_gun_elite
-</text>
-<text x="15576" y="135">
-kitty_spear_elite
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/aiming_cannon.png" height="100" width="100" x="15576" y="115"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/kitty_gun_elite.png" height="100" width="100" x="15576" y="95"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/kitty_spear_elite.png" height="100" width="100" x="15576" y="75"/>
 <line x1="15708" y1="200" x2="15838" y2="200" stroke="black"/>
 <line x1="15708" y1="200" x2="15838" y2="200" stroke="black"/>
 <text x="15708" y="240">
@@ -861,12 +682,8 @@ central-services.cfg
 <text x="16104" y="220">
 catfactory-catwalk.cfg
 </text>
-<text x="16104" y="115">
-spiked_block
-</text>
-<text x="16104" y="95">
-milgram_block_spawner
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/spiked_block.png" height="100" width="100" x="16104" y="55"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/milgram_block_spawner.png" height="100" width="100" x="16104" y="35"/>
 <line x1="16236" y1="200" x2="16366" y2="200" stroke="black"/>
 <line x1="16236" y1="200" x2="16366" y2="200" stroke="black"/>
 <text x="16236" y="240">
@@ -877,12 +694,7 @@ kitty-factory-maze.cfg
 <text x="16368" y="220">
 kitty-factory.cfg
 </text>
-<text x="16368" y="195">
-factory_spawner
-</text>
-<text x="16368" y="175">
-factory_remover
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/factory_spawner.png" height="100" width="100" x="16368" y="15"/>
 <line x1="16500" y1="200" x2="16630" y2="200" stroke="black"/>
 <line x1="16500" y1="200" x2="16630" y2="200" stroke="black"/>
 <text x="16500" y="240">
@@ -908,15 +720,9 @@ north-courtyard.cfg
 <text x="17028" y="240">
 moonlit-ramparts.cfg
 </text>
-<text x="17028" y="155">
-trap_door
-</text>
-<text x="17028" y="135">
-kitty_sniper
-</text>
-<text x="17028" y="115">
-kitty_ninja
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/cannon.png" height="100" width="100" x="17028" y="195"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/kitty_sniper.png" height="100" width="100" x="17028" y="175"/>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/kitty_ninja.png" height="100" width="100" x="17028" y="155"/>
 <line x1="17160" y1="200" x2="17290" y2="200" stroke="black"/>
 <line x1="17160" y1="200" x2="17290" y2="200" stroke="black"/>
 <text x="17160" y="220">
@@ -937,16 +743,11 @@ suboptimal-design.cfg
 <text x="17556" y="240">
 platform-peril.cfg
 </text>
-<text x="17556" y="95">
-wartfly
-</text>
+<image href="/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/wartfly.png" height="100" width="100" x="17556" y="135"/>
 <line x1="17688" y1="200" x2="17818" y2="200" stroke="black"/>
 <line x1="17688" y1="200" x2="17818" y2="200" stroke="black"/>
 <text x="17688" y="220">
 killer-bunnies.cfg
-</text>
-<text x="17688" y="195">
-milgram_slab
 </text>
 <line x1="17820" y1="200" x2="17950" y2="200" stroke="black"/>
 <line x1="17820" y1="200" x2="17950" y2="200" stroke="black"/>
@@ -962,9 +763,6 @@ dark-corridor.cfg
 <line x1="18084" y1="200" x2="18214" y2="200" stroke="black"/>
 <text x="18084" y="240">
 dungeon-crawling.cfg
-</text>
-<text x="18084" y="175">
-kitty_robot
 </text>
 <line x1="18216" y1="200" x2="18346" y2="200" stroke="black"/>
 <line x1="18216" y1="200" x2="18346" y2="200" stroke="black"/>

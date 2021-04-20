@@ -10,7 +10,7 @@
      - Add images
      - Display additional info - sectors, heart pieces, abilities, items
 
-     
+
    DATA:
        - Get additional info - heart pieces, abilities, items
        - Update Progression.json
@@ -78,6 +78,11 @@ def DrawText(svg, x, y, txt)
   svg.text txt, x: x, y: y
 end
 
+def DrawImage(svg, x, y, path)
+  svg.image href: path, height: 100, width: 100, x: x, y: y
+
+end
+
 def main()
 
     svg = Victor::SVG.new width: 10000, height: 1000, style: { background: '#ddd' }
@@ -122,8 +127,9 @@ def main()
         for j in 0...$enemies.length do
 
           if $levels[i][0] == $enemies[j][1] then
-            
-            DrawText(svg, $line_shift * (multiplier+1), 195-(20*(j%6)), $enemies[j][0])
+              
+              DrawImage(svg, $line_shift * (multiplier+1), 195-(20*(j%10)), "/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/" + $enemies[j][0] + ".png")
+          
           end
 
         end

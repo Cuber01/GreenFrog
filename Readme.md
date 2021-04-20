@@ -4,3 +4,4 @@ Dependencies:
 * victor gem
 * mini_magick gem
 * json gem
+* ruby
