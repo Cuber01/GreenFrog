@@ -79,7 +79,7 @@ def DrawText(svg, x, y, txt)
 end
 
 def DrawImage(svg, x, y, path)
-  svg.image href: path, height: 100, width: 100, x: x, y: y
+  svg.image href: path, x: x, y: y
 
 end
 
@@ -121,21 +121,24 @@ def main()
             
         #TEMP
         
-        DrawText(svg, $line_shift * (multiplier+1), 200+temp_int, $levels[i][0])
-        
+        DrawText(svg, $line_shift * (multiplier+1), 100+temp_int, $levels[i][0])        
+
+        k = 0
         
         for j in 0...$enemies.length do
 
           if $levels[i][0] == $enemies[j][1] then
-              
-              DrawImage(svg, $line_shift * (multiplier+1), 195-(20*(j%10)), "/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/" + $enemies[j][0] + ".png")
-          
+              DrawImage(svg, $line_shift * (multiplier+1), 210+50*k, "/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/" + $enemies[j][0] + ".png")
+              DrawLine( svg, $line_shift * (multiplier+1), 210+50*k )      
+              k = k + 1                 
           end
 
         end
         
-        
+       
         draw_upper_line = true 
+
+
         
 
       end
