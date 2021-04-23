@@ -1,7 +1,8 @@
 Dependencies:
 
 * ImageMagick
-* victor gem
-* mini_magick gem
-* json gem
-* ruby
+
+* ruby (tested on 2.7)
+* victor gem for ruby
+* mini_magick gem for ruby
+* json gem for ruby

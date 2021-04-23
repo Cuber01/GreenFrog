@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 #//TODO - 
 =begin
    ORGANIZE:
@@ -23,20 +25,6 @@
 =end 
 
 
-
-
-# $levels = [
-#   ["seaside", 0, "bonus"],
-#   ["crevice village", 1],
-#   ["forest", 2, "anyway"],
-#   ["cave", 3], 
-#   ["dungeon", 4, "bonus"],
-#   ["castle", 5],
-#   ["cool", 6, "anyway"]
-# ]
-
-
-
 require 'victor'
 require 'json'
 
@@ -47,7 +35,7 @@ $levels = JSON.parse(File.read("/home/cubeq/Projects/ruby/GetEnemies/Progression
 $enemies = JSON.parse(File.read("/home/cubeq/Projects/ruby/GetEnemies/Enemies.json"))
 
 
-$temp = true
+$line_offset = true
 
 $nmb_of_lines = $levels.length
 $line_shift = 132
@@ -64,15 +52,18 @@ def DrawLine(svg, x, y)
 
 end 
 
-def DrawConnector(svg, x, y)
 
-    # curve
-    svg.line x1: x, y1: y+50, x2: x+50, y2: y, stroke: 'black'
+# This is a scrapped and generally bad branch system. 
 
-    # straight
-    svg.line x1: x+50, y1: y, x2: x+75, y2: y, stroke: 'black'
+# def DrawConnector(svg, x, y)
+
+#     # curve
+#     svg.line x1: x, y1: y+50, x2: x+50, y2: y, stroke: 'black'
+
+#     # straight
+#     svg.line x1: x+50, y1: y, x2: x+75, y2: y, stroke: 'black'
     
-end
+# end
  
 def DrawText(svg, x, y, txt)
   svg.text txt, x: x, y: y
@@ -92,16 +83,17 @@ def main()
         multiplier = i
         
         
-    
-        if $levels[i][2] == "bonus" then  
+        # This is a scrapped and generally bad branch system. 
 
-          draw_upper_line = false 
-          DrawConnector( svg, (multiplier+1) * $line_shift + 55 , 150)
-          $index = 50
+        # if $levels[i][2] == "bonus" then  
 
-        elsif $levels[i][2] == "anyway" then
-          $index = 0
-        end
+        #   draw_upper_line = false 
+        #   DrawConnector( svg, (multiplier+1) * $line_shift + 55 , 150)
+        #   $index = 50
+
+        # elsif $levels[i][2] == "anyway" then
+        #   $index = 0
+        # end
 
         if draw_upper_line then
           DrawLine(svg, $line_shift * (multiplier+1), 200 - $index)
@@ -109,18 +101,17 @@ def main()
 
         DrawLine(svg, $line_shift * (multiplier+1), 200)
         
-        #TEMP
-          temp_int = 20
 
-          if $temp == true then
-            temp_int = 40
-            $temp = false
-          else
-            $temp = true
-          end
-            
-        #TEMP
+        line_offset_v = 20
+
+        if $line_offset == true then
+          line_offset_v = 40
+          $line_offset = false
+        else
+          $line_offset = true
+        end
         
+
         DrawText(svg, $line_shift * (multiplier+1), 100+temp_int, $levels[i][0])        
 
         k = 0

@@ -72,10 +72,6 @@
         12
     ],
     [
-        "the-north-tower.cfg",
-        12
-    ],
-    [
         "rock-a-fort.cfg",
         13
     ],
@@ -249,107 +245,107 @@
     ],
     [
         "forest-crossroads.cfg",
-        58
+        54
     ],
     [
         "twisted-trees.cfg",
-        59
-    ],
-    [
-        "eerie-arbor.cfg",
-        60
-    ],
-    [
-        "gloomy-glade.cfg",
-        62
-    ],
-    [
-        "perilous-precipice-fall.cfg",
-        62.5
-    ],
-    [
-        "tumultuous-tunnel.cfg",
-        63
-    ],
-    [
-        "boundless-boughs.cfg",
-        64
-    ],
-    [
-        "luminous-lake.cfg",
-        65
-    ],
-    [
-        "trembling-treetops.cfg",
-        66
-    ],
-    [
-        "celadon-clearing.cfg",
-        67
-    ],
-    [
-        "forgotten-falls.cfg",
-        68
-    ],
-    [
-        "glowing-gate.cfg",
-        69
-    ],
-    [
-        "perilous-precipice.cfg",
-        70
+        55
     ],
     [
         "pinecone-park.cfg",
-        70.5
+        56
     ],
     [
         "prosperas-promontory.cfg",
-        71
+        57
     ],
     [
         "prosperas-house.cfg",
-        72
+        58
     ],
     [
         "prosperas-workshop.cfg",
-        73
+        59
     ],
     [
         "the-shaft.cfg",
-        74
+        60
     ],
     [
         "the-200-shoes.cfg",
-        75
+        61
     ],
     [
         "the-500-feet.cfg",
-        76
+        62
     ],
     [
         "musty-mine.cfg",
-        77
+        63
     ],
     [
         "musty-pit.cfg",
-        78
+        64
     ],
     [
         "gazer-boss.cfg",
-        78.5
+        65
     ],
     [
         "gazer-boss-test.cfg",
-        79
+        66
     ],
     [
         "gazer-boss-enclave.cfg",
-        80
+        67
+    ],
+    [
+        "eerie-arbor.cfg",
+        68
+    ],
+    [
+        "gloomy-glade.cfg",
+        69
+    ],
+    [
+        "tumultuous-tunnel.cfg",
+        70
+    ],
+    [
+        "boundless-boughs.cfg",
+        71
+    ],
+    [
+        "luminous-lake.cfg",
+        72
+    ],
+    [
+        "trembling-treetops.cfg",
+        73
+    ],
+    [
+        "celadon-clearing.cfg",
+        74
+    ],
+    [
+        "forgotten-falls.cfg",
+        75
+    ],
+    [
+        "glowing-gate.cfg",
+        76
+    ],
+    [
+        "perilous-precipice-fall.cfg",
+        77
+    ],
+    [
+        "perilous-precipice.cfg",
+        78
     ],
     [
         "tempo-bridge.cfg",
-        81
+        79
     ],
     [
         "sweltering-swamp.cfg",
@@ -510,6 +506,10 @@
     [
         "north-courtyard.cfg",
         118
+    ],
+    [
+        "the-north-tower.cfg",
+        118.5
     ],
     [
         "moonlit-ramparts.cfg",
