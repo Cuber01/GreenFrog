@@ -1,34 +1,8 @@
 #!/usr/bin/env ruby
 
-#//TODO - 
-=begin
-   ORGANIZE:
-      - Add comments for users
-
-
-   UI:    
-     - Port to html
-     - Make it interactable and display info better
-     - Add images
-     - Display additional info - sectors, heart pieces, abilities, items
-
-
-   DATA:
-       - Get additional info - heart pieces, abilities, items
-       - Update Progression.json
-       - Ignore some enemies + special tweaks
-  
-      WRONG DATA:
-         - nenes-house-interior.cfg should be empty
-         - owl in seluded-hut-interiror.cfg
-         - nort tower bad index
-=end 
-
 
 require 'victor'
 require 'json'
-
-
 
 
 $levels = JSON.parse(File.read("/home/cubeq/Projects/ruby/GetEnemies/ProgressionSorted.json"))
@@ -76,7 +50,7 @@ end
 
 def main()
 
-    svg = Victor::SVG.new width: 10000, height: 1000, style: { background: '#ddd' }
+    svg = Victor::SVG.new width: 100000, height: 1000, style: { background: '#ddd' }
 
 
       for i in 0...$nmb_of_lines do
@@ -95,9 +69,9 @@ def main()
         #   $index = 0
         # end
 
-        if draw_upper_line then
-          DrawLine(svg, $line_shift * (multiplier+1), 200 - $index)
-        end
+        # if draw_upper_line then
+        #   DrawLine(svg, $line_shift * (multiplier+1), 200 - $index)
+        # end
 
         DrawLine(svg, $line_shift * (multiplier+1), 200)
         
@@ -112,7 +86,7 @@ def main()
         end
         
 
-        DrawText(svg, $line_shift * (multiplier+1), 100+temp_int, $levels[i][0])        
+        DrawText(svg, $line_shift * (multiplier+1), 100+line_offset_v, $levels[i][0])        
 
         k = 0
         
@@ -120,14 +94,14 @@ def main()
 
           if $levels[i][0] == $enemies[j][1] then
               DrawImage(svg, $line_shift * (multiplier+1), 210+50*k, "/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/" + $enemies[j][0] + ".png")
-              DrawLine( svg, $line_shift * (multiplier+1), 210+50*k )      
+              #DrawLine( svg, $line_shift * (multiplier+1), 210+50*k )      
               k = k + 1                 
           end
 
         end
         
        
-        draw_upper_line = true 
+        #draw_upper_line = true 
 
 
         

@@ -198,17 +198,6 @@
         "/home/cubeq/bin/anura/modules/frogatto/images/enemies/ant-flying-platform-red.png"
     ],
     [
-        "retracting_spike_machine",
-        "the-north-tower.cfg",
-        [
-            0,
-            0,
-            15,
-            47
-        ],
-        "/home/cubeq/bin/anura/modules/frogatto/images/props/retracting-spike-machine.png"
-    ],
-    [
         "fumper_hopper",
         "rock-a-fort.cfg",
         [
@@ -429,6 +418,61 @@
         "/home/cubeq/bin/anura/modules/frogatto/images/enemies/moth-small.png"
     ],
     [
+        "gazer_grey",
+        "the-200-shoes.cfg",
+        [
+            1,
+            1,
+            41,
+            41
+        ],
+        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/gazer-grey.png"
+    ],
+    [
+        "bat_red",
+        "the-500-feet.cfg",
+        [
+            1,
+            1,
+            18,
+            28
+        ],
+        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/bat-red.png"
+    ],
+    [
+        "moth_black",
+        "musty-mine.cfg",
+        [
+            208,
+            1,
+            246,
+            39
+        ],
+        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/moth-black.png"
+    ],
+    [
+        "red_spikebug",
+        "musty-mine.cfg",
+        [
+            34,
+            2,
+            62,
+            29
+        ],
+        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/spike-bug.png"
+    ],
+    [
+        "gazer_boss",
+        "gazer-boss-test.cfg",
+        [
+            1,
+            1,
+            125,
+            125
+        ],
+        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/gazer-boss1.png"
+    ],
+    [
         "forest_shooting_plant_huge",
         "eerie-arbor.cfg",
         [
@@ -493,61 +537,6 @@
             71
         ],
         "/home/cubeq/bin/anura/modules/frogatto/images/enemies/hortlebort-grey.png"
-    ],
-    [
-        "gazer_grey",
-        "celadon-clearing.cfg",
-        [
-            1,
-            1,
-            41,
-            41
-        ],
-        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/gazer-grey.png"
-    ],
-    [
-        "bat_red",
-        "the-500-feet.cfg",
-        [
-            1,
-            1,
-            18,
-            28
-        ],
-        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/bat-red.png"
-    ],
-    [
-        "moth_black",
-        "musty-mine.cfg",
-        [
-            208,
-            1,
-            246,
-            39
-        ],
-        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/moth-black.png"
-    ],
-    [
-        "red_spikebug",
-        "musty-mine.cfg",
-        [
-            34,
-            2,
-            62,
-            29
-        ],
-        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/spike-bug.png"
-    ],
-    [
-        "gazer_boss",
-        "gazer-boss-test.cfg",
-        [
-            1,
-            1,
-            125,
-            125
-        ],
-        "/home/cubeq/bin/anura/modules/frogatto/images/enemies/gazer-boss1.png"
     ],
     [
         "mushroom_shooter_red",
@@ -713,6 +702,17 @@
             110
         ],
         "/home/cubeq/bin/anura/modules/frogatto/images/enemies/cannon.png"
+    ],
+    [
+        "retracting_spike_machine",
+        "dungeon-entrance.cfg",
+        [
+            0,
+            0,
+            15,
+            47
+        ],
+        "/home/cubeq/bin/anura/modules/frogatto/images/props/retracting-spike-machine.png"
     ],
     [
         "kitty_gun_elite",

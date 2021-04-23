@@ -4,106 +4,6 @@
         0
     ],
     [
-        "airplane-boss.cfg",
-        10
-    ],
-    [
-        "bay-overlook.cfg",
-        5.5
-    ],
-    [
-        "burn-and-bubble.cfg",
-        7
-    ],
-    [
-        "chopple-shop.cfg",
-        18
-    ],
-    [
-        "chopple-shop-interior.cfg",
-        19
-    ],
-    [
-        "cragland.cfg",
-        5.7
-    ],
-    [
-        "crevice-bridge.cfg",
-        33
-    ],
-    [
-        "crevice-village-cave.cfg",
-        20
-    ],
-    [
-        "crevice-village-central-side-cave.cfg",
-        22
-    ],
-    [
-        "crevice-village-central.cfg",
-        21
-    ],
-    [
-        "crevice-village-heights.cfg",
-        31
-    ],
-    [
-        "crevice-village-house-1.cfg",
-        22
-    ],
-    [
-        "crevice-village-house-2-basement-backroom.cfg",
-        25
-    ],
-    [
-        "crevice-village-house-2-basement.cfg",
-        24
-    ],
-    [
-        "crevice-village-house-2.cfg",
-        23
-    ],
-    [
-        "crevice-village-house-3-backroom.cfg",
-        29
-    ],
-    [
-        "crevice-village-house-3-switch.cfg",
-        30
-    ],
-    [
-        "crevice-village-house-3.cfg",
-        28
-    ],
-    [
-        "crevice-village-house-4-backroom.cfg",
-        27
-    ],
-    [
-        "crevice-village-house-4.cfg",
-        26
-    ],
-    [
-        "crevice-village-house-elder.cfg",
-        32
-    ],
-    [
-        "crevice-village.cfg",
-        21
-    ],
-    [
-        "descent-to-town.cfg",
-        17
-    ],
-    [
-        "downhill.cfg",
-        16
-    ],
-    [
-        "flooded-caverns.cfg",
-        15
-    ],
-    [
         "frogatto-grotto-inside.cfg",
         1
     ],
@@ -120,32 +20,36 @@
         2
     ],
     [
-        "lighthouse-ruins.cfg",
-        5.8
+        "to-nenes-house.cfg",
+        3
+    ],
+    [
+        "to-nenes-house-inside.cfg",
+        4
     ],
     [
         "nenes-basement.cfg",
         5
     ],
     [
-        "rock-a-fort-cave.cfg",
-        14
+        "bay-overlook.cfg",
+        5.5
     ],
     [
-        "rock-a-fort.cfg",
-        13
+        "cragland.cfg",
+        5.7
     ],
     [
-        "secluded-hut-interior.cfg",
-        12
-    ],
-    [
-        "secluded-hut.cfg",
-        11
+        "lighthouse-ruins.cfg",
+        5.8
     ],
     [
         "splash-hop.cfg",
         6
+    ],
+    [
+        "burn-and-bubble.cfg",
+        7
     ],
     [
         "stonepipe-flats.cfg",
@@ -156,160 +60,132 @@
         9
     ],
     [
-        "to-nenes-house-inside.cfg",
-        4
+        "airplane-boss.cfg",
+        10
     ],
     [
-        "to-nenes-house.cfg",
-        3
+        "secluded-hut.cfg",
+        11
+    ],
+    [
+        "secluded-hut-interior.cfg",
+        12
+    ],
+    [
+        "rock-a-fort.cfg",
+        13
+    ],
+    [
+        "rock-a-fort-cave.cfg",
+        14
+    ],
+    [
+        "flooded-caverns.cfg",
+        15
+    ],
+    [
+        "downhill.cfg",
+        16
+    ],
+    [
+        "descent-to-town.cfg",
+        17
+    ],
+    [
+        "chopple-shop.cfg",
+        18
+    ],
+    [
+        "chopple-shop-interior.cfg",
+        19
+    ],
+    [
+        "crevice-village-cave.cfg",
+        20
+    ],
+    [
+        "crevice-village-central.cfg",
+        21
+    ],
+    [
+        "crevice-village.cfg",
+        21
+    ],
+    [
+        "crevice-village-central-side-cave.cfg",
+        22
+    ],
+    [
+        "crevice-village-house-1.cfg",
+        22
+    ],
+    [
+        "crevice-village-house-2.cfg",
+        23
+    ],
+    [
+        "crevice-village-house-2-basement.cfg",
+        24
+    ],
+    [
+        "crevice-village-house-2-basement-backroom.cfg",
+        25
+    ],
+    [
+        "crevice-village-house-4.cfg",
+        26
+    ],
+    [
+        "crevice-village-house-4-backroom.cfg",
+        27
+    ],
+    [
+        "crevice-village-house-3.cfg",
+        28
+    ],
+    [
+        "crevice-village-house-3-backroom.cfg",
+        29
+    ],
+    [
+        "crevice-village-house-3-switch.cfg",
+        30
+    ],
+    [
+        "crevice-village-heights.cfg",
+        31
+    ],
+    [
+        "crevice-village-house-elder.cfg",
+        32
+    ],
+    [
+        "crevice-bridge.cfg",
+        33
     ],
     [
         "wandering-passage.cfg",
         34
     ],
     [
-        "bon-bosque.cfg",
-        94
-    ],
-    [
-        "bothersome-bog.cfg",
-        83
-    ],
-    [
-        "boundless-boughs.cfg",
-        64
-    ],
-    [
-        "caustic-cauchemar.cfg",
-        88
-    ],
-    [
-        "celadon-clearing.cfg",
-        67
-    ],
-    [
-        "conveyance-crossing.cfg",
-        45
-    ],
-    [
-        "conveyance.cfg",
-        44
-    ],
-    [
-        "corrosive-climb.cfg",
-        92.5
-    ],
-    [
-        "eerie-arbor.cfg",
-        60
-    ],
-    [
         "foreboding-forest.cfg",
         35
-    ],
-    [
-        "forest-crossroads.cfg",
-        58
-    ],
-    [
-        "forgotten-falls.cfg",
-        68
-    ],
-    [
-        "gazer-boss-enclave.cfg",
-        80
-    ],
-    [
-        "gazer-boss-test.cfg",
-        79
-    ],
-    [
-        "gazer-boss.cfg",
-        78.5
-    ],
-    [
-        "gloomy-glade.cfg",
-        62
-    ],
-    [
-        "glowing-gate.cfg",
-        69
     ],
     [
         "gnarled-knoll.cfg",
         36
     ],
     [
-        "golden-glen.cfg",
-        93
+        "starlit-cave.cfg",
+        37
     ],
     [
-        "ignominous-interlude.cfg",
-        92.7
+        "turgid-turn.cfg",
+        38
     ],
     [
-        "luminous-lake.cfg",
-        65
-    ],
-    [
-        "moribund-muck.cfg",
-        84
-    ],
-    [
-        "murky-mire.cfg",
-        85
-    ],
-    [
-        "mushroom-boss.cfg",
-        90
-    ],
-    [
-        "musty-mine.cfg",
-        77
-    ],
-    [
-        "musty-pit.cfg",
-        78
-    ],
-    [
-        "perilous-precipice-fall.cfg",
-        62.5
-    ],
-    [
-        "perilous-precipice.cfg",
-        70
-    ],
-    [
-        "pinecone-park.cfg",
-        70.5
-    ],
-    [
-        "prosperas-house.cfg",
-        72
-    ],
-    [
-        "prosperas-promontory.cfg",
-        71
-    ],
-    [
-        "prosperas-workshop.cfg",
-        73
-    ],
-    [
-        "putrid-pools.cfg",
-        86
-    ],
-    [
-        "ravenish-ravine.cfg",
-        92
-    ],
-    [
-        "relative-respite.cfg",
-        91
-    ],
-    [
-        "roadside-retreat.cfg",
-        46
+        "rocky-road.cfg",
+        39
     ],
     [
         "rocky-road-house-inside.cfg",
@@ -320,36 +196,32 @@
         41
     ],
     [
-        "rocky-road.cfg",
-        39
-    ],
-    [
-        "rustic-route.cfg",
-        47
-    ],
-    [
-        "starlit-cave.cfg",
-        37
-    ],
-    [
-        "sweltering-swamp.cfg",
-        82
-    ],
-    [
-        "tempo-bridge.cfg",
-        81
-    ],
-    [
-        "tempo-docks.cfg",
-        53
+        "tempo-outskirts.cfg",
+        42
     ],
     [
         "tempo-outskirts-inside.cfg",
         43
     ],
     [
-        "tempo-outskirts.cfg",
-        42
+        "conveyance.cfg",
+        44
+    ],
+    [
+        "conveyance-crossing.cfg",
+        45
+    ],
+    [
+        "roadside-retreat.cfg",
+        46
+    ],
+    [
+        "rustic-route.cfg",
+        47
+    ],
+    [
+        "tempo-village.cfg",
+        48
     ],
     [
         "tempo-village-house-1.cfg",
@@ -368,64 +240,212 @@
         52
     ],
     [
-        "tempo-village.cfg",
-        48
+        "tempo-docks.cfg",
+        53
     ],
     [
-        "the-200-shoes.cfg",
-        75
-    ],
-    [
-        "the-500-feet.cfg",
-        76
-    ],
-    [
-        "the-empty-place.cfg",
-        89
-    ],
-    [
-        "the-shaft.cfg",
-        74
-    ],
-    [
-        "trembling-treetops.cfg",
-        66
-    ],
-    [
-        "tumultuous-tunnel.cfg",
-        63
-    ],
-    [
-        "turgid-turn.cfg",
-        38
+        "forest-crossroads.cfg",
+        54
     ],
     [
         "twisted-trees.cfg",
+        55
+    ],
+    [
+        "pinecone-park.cfg",
+        56
+    ],
+    [
+        "prosperas-promontory.cfg",
+        57
+    ],
+    [
+        "prosperas-house.cfg",
+        58
+    ],
+    [
+        "prosperas-workshop.cfg",
         59
+    ],
+    [
+        "the-shaft.cfg",
+        60
+    ],
+    [
+        "the-200-shoes.cfg",
+        61
+    ],
+    [
+        "the-500-feet.cfg",
+        62
+    ],
+    [
+        "musty-mine.cfg",
+        63
+    ],
+    [
+        "musty-pit.cfg",
+        64
+    ],
+    [
+        "gazer-boss.cfg",
+        65
+    ],
+    [
+        "gazer-boss-test.cfg",
+        66
+    ],
+    [
+        "gazer-boss-enclave.cfg",
+        67
+    ],
+    [
+        "eerie-arbor.cfg",
+        68
+    ],
+    [
+        "gloomy-glade.cfg",
+        69
+    ],
+    [
+        "tumultuous-tunnel.cfg",
+        70
+    ],
+    [
+        "boundless-boughs.cfg",
+        71
+    ],
+    [
+        "luminous-lake.cfg",
+        72
+    ],
+    [
+        "trembling-treetops.cfg",
+        73
+    ],
+    [
+        "celadon-clearing.cfg",
+        74
+    ],
+    [
+        "forgotten-falls.cfg",
+        75
+    ],
+    [
+        "glowing-gate.cfg",
+        76
+    ],
+    [
+        "perilous-precipice-fall.cfg",
+        77
+    ],
+    [
+        "perilous-precipice.cfg",
+        78
+    ],
+    [
+        "tempo-bridge.cfg",
+        79
+    ],
+    [
+        "sweltering-swamp.cfg",
+        82
+    ],
+    [
+        "bothersome-bog.cfg",
+        83
+    ],
+    [
+        "moribund-muck.cfg",
+        84
+    ],
+    [
+        "murky-mire.cfg",
+        85
+    ],
+    [
+        "putrid-pools.cfg",
+        86
     ],
     [
         "wearisome-wetlands.cfg",
         87
     ],
     [
-        "blind-alley.cfg",
-        107
+        "caustic-cauchemar.cfg",
+        88
     ],
     [
-        "bombing-fools.cfg",
-        99
+        "the-empty-place.cfg",
+        89
     ],
     [
-        "bug-mining.cfg",
-        104
+        "mushroom-boss.cfg",
+        90
+    ],
+    [
+        "relative-respite.cfg",
+        91
+    ],
+    [
+        "ravenish-ravine.cfg",
+        92
+    ],
+    [
+        "corrosive-climb.cfg",
+        92.5
+    ],
+    [
+        "ignominous-interlude.cfg",
+        92.7
+    ],
+    [
+        "golden-glen.cfg",
+        93
+    ],
+    [
+        "bon-bosque.cfg",
+        94
+    ],
+    [
+        "rocky-roots.cfg",
+        95
     ],
     [
         "caverns-of-holes.cfg",
         96
     ],
     [
+        "underground-pool.cfg",
+        97
+    ],
+    [
         "darkness-central.cfg",
         98
+    ],
+    [
+        "bombing-fools.cfg",
+        99
+    ],
+    [
+        "hidden-depths.cfg",
+        100
+    ],
+    [
+        "watery-alley.cfg",
+        101
+    ],
+    [
+        "subterranean-scuffle.cfg",
+        102
+    ],
+    [
+        "plagued-mine.cfg",
+        103
+    ],
+    [
+        "bug-mining.cfg",
+        104
     ],
     [
         "fast-lane.cfg",
@@ -436,100 +456,100 @@
         106
     ],
     [
-        "hidden-depths.cfg",
-        100
-    ],
-    [
-        "plagued-mine.cfg",
-        103
-    ],
-    [
-        "rocky-roots.cfg",
-        95
-    ],
-    [
-        "subterranean-scuffle.cfg",
-        102
-    ],
-    [
-        "underground-pool.cfg",
-        97
-    ],
-    [
-        "watery-alley.cfg",
-        101
-    ],
-    [
-        "burning-stone.cfg",
-        124
-    ],
-    [
-        "catfactory-catwalk.cfg",
-        112.5
-    ],
-    [
-        "central-services.cfg",
-        112
-    ],
-    [
-        "dark-corridor.cfg",
-        125
-    ],
-    [
-        "dungeon-blocks.cfg",
-        127
-    ],
-    [
-        "dungeon-crawling.cfg",
-        126
-    ],
-    [
-        "dungeon-entrance.cfg",
-        109
+        "blind-alley.cfg",
+        107
     ],
     [
         "dungeon-gateway.cfg",
         108
     ],
     [
-        "dungeon-storeroom-treasure-chamber.cfg",
-        117
+        "dungeon-entrance.cfg",
+        109
+    ],
+    [
+        "milgrams-basement-junction.cfg",
+        110
     ],
     [
         "dungeon-storerooms.cfg",
         111
     ],
     [
-        "killer-bunnies.cfg",
-        123
+        "central-services.cfg",
+        112
     ],
     [
-        "kitty-dormitory.cfg",
-        119.5
+        "catfactory-catwalk.cfg",
+        112.5
     ],
     [
         "kitty-factory-maze.cfg",
         113
     ],
     [
-        "kitty-factory-upper.cfg",
-        115
-    ],
-    [
         "kitty-factory.cfg",
         114
     ],
     [
-        "kitty-kitchen.cfg",
-        119.7
+        "kitty-factory-upper.cfg",
+        115
     ],
     [
         "long-plastic-hallway.cfg",
         116
     ],
     [
-        "milgrams-basement-junction.cfg",
-        110
+        "dungeon-storeroom-treasure-chamber.cfg",
+        117
+    ],
+    [
+        "north-courtyard.cfg",
+        118
+    ],
+    [
+        "the-north-tower.cfg",
+        118.5
+    ],
+    [
+        "moonlit-ramparts.cfg",
+        119
+    ],
+    [
+        "kitty-dormitory.cfg",
+        119.5
+    ],
+    [
+        "kitty-kitchen.cfg",
+        119.7
+    ],
+    [
+        "suboptimal-design.cfg",
+        121
+    ],
+    [
+        "platform-peril.cfg",
+        122
+    ],
+    [
+        "killer-bunnies.cfg",
+        123
+    ],
+    [
+        "burning-stone.cfg",
+        124
+    ],
+    [
+        "dark-corridor.cfg",
+        125
+    ],
+    [
+        "dungeon-crawling.cfg",
+        126
+    ],
+    [
+        "dungeon-blocks.cfg",
+        127
     ],
     [
         "milgrams-throne-room-entrance.cfg",
@@ -538,25 +558,5 @@
     [
         "milgrams-throne-room.cfg",
         129
-    ],
-    [
-        "moonlit-ramparts.cfg",
-        119
-    ],
-    [
-        "north-courtyard.cfg",
-        118
-    ],
-    [
-        "platform-peril.cfg",
-        122
-    ],
-    [
-        "suboptimal-design.cfg",
-        121
-    ],
-    [
-        "the-north-tower.cfg",
-        12
     ]
 ]
