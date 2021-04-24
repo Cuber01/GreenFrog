@@ -1,7 +1,7 @@
 require 'mini_magick'
 require 'json'
 
-$enemy_info_raw =  File.read("/home/cubeq/Projects/ruby/GetEnemies/Enemies.json")
+$enemy_info_raw =  File.read("../../Enemies.json")
 $enemy_info = JSON.parse($enemy_info_raw)
 
 =begin

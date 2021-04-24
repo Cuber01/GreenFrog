@@ -5,8 +5,8 @@ require 'victor'
 require 'json'
 
 
-$levels = JSON.parse(File.read("/home/cubeq/Projects/ruby/GetEnemies/ProgressionSorted.json"))
-$enemies = JSON.parse(File.read("/home/cubeq/Projects/ruby/GetEnemies/Enemies.json"))
+$levels = JSON.parse(File.read("../ProgressionSorted.json"))
+$enemies = JSON.parse(File.read("../Enemies.json"))
 
 
 $line_offset = true
@@ -93,18 +93,12 @@ def main()
         for j in 0...$enemies.length do
 
           if $levels[i][0] == $enemies[j][1] then
-              DrawImage(svg, $line_shift * (multiplier+1), 210+50*k, "/home/cubeq/Projects/ruby/GetEnemies/svg_generation/image_preparation/img/" + $enemies[j][0] + ".png")
+              DrawImage(svg, $line_shift * (multiplier+1), 210+50*k, "./image_preparation/img/" + $enemies[j][0] + ".png")
               #DrawLine( svg, $line_shift * (multiplier+1), 210+50*k )      
               k = k + 1                 
           end
 
         end
-        
-       
-        #draw_upper_line = true 
-
-
-        
 
       end
 
