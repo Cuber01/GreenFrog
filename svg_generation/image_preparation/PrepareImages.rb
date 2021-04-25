@@ -1,7 +1,7 @@
 require 'mini_magick'
 require 'json'
 
-$enemy_info_raw =  File.read("../../Enemies.json")
+$enemy_info_raw =  File.read("Enemies.json")
 $enemy_info = JSON.parse($enemy_info_raw)
 
 =begin
@@ -52,7 +52,7 @@ def EditImage(name, up_x, up_y, down_x, down_y, path)
 
 
     image.format "png"
-    image.write "img/" + name + ".png"
+    image.write "svg_generation/image_preparation/img/" + name + ".png"
 
 end
 

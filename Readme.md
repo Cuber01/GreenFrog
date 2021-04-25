@@ -9,3 +9,4 @@ GreenFrog is a tool used to generate a simplified version of [Frogatto](https://
 * mini_magick gem for ruby - For image editing
 * ImageMagick or GraphicsMagic terminal tool - For image editing
 * json gem for ruby - For reading .json files
+* A copy of Frogatto (tested on unstable version from April 24)

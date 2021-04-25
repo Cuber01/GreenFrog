@@ -16,13 +16,11 @@ $progression = JSON.parse($progression_raw)
 $non_enemies = [
   "owl",
   "acorn",
-  "skeeter_controller",
-  "maggot_white_controller",
-  "maggot_grey_controller",
+  #"skeeter_controller", 
   "semiguided_missile",
   "spore_shooting_plant.cfg",
   "spider_silk",
-  "factory_remover",
+ # "factory_remover", #
   "spore_shooting_plant",
   "mushroom_missile",
   "gazer_boss_manifold",
@@ -30,6 +28,11 @@ $non_enemies = [
   "pollen_impact_particle",
   "sinusoidal_flier_shooter"
 ]
+
+$default_rect = [85,72,114,101]
+
+# bosses
+# moth bomber
 
 
 $encountered_enemies = []
@@ -90,7 +93,7 @@ end
 # Get the position of enemy sprite on its spritesheet
 def GetEnemyRects(enemy)
     rect_raw = ""
-
+    
     # Search for rect and get the value 
     File.open enemy do |file|
         rect_raw = file.find { |line| line =~ /rect: \[[0-9]+\,[0-9]+\,[0-9]+\,[0-9]+\]\,/ }
@@ -131,20 +134,23 @@ def GetEnemyRects(enemy)
 
                 end
 
+                if prototype_raw != nil then
 
-                prototype_data = prototype_raw.split('[').last.split(']').first.tr('"', '')
-
-
-                for j in 0...$enemy_prototypes.length
+                    prototype_data = prototype_raw.split('[').last.split(']').first.tr('"', '')
 
 
-                    if File.basename($enemy_prototypes[j], '.cfg') == prototype_data then
+                    for j in 0...$enemy_prototypes.length
 
-                        File.open $enemy_prototypes[j] do |file|
-                            rect_raw = file.find { |line| line =~ /rect: \[[0-9]+\,[0-9]+\,[0-9]+\,[0-9]+\]\,/ }
-                            rect_data = rect_raw.split("[").last.split("]").first
 
-                            $enemy_images[i][1] = rect_data.split(",").map { |s| s.to_i }
+                        if File.basename($enemy_prototypes[j], '.cfg') == prototype_data then
+
+                            File.open $enemy_prototypes[j] do |file|
+                                rect_raw = file.find { |line| line =~ /rect: \[[0-9]+\,[0-9]+\,[0-9]+\,[0-9]+\]\,/ }
+                                rect_data = rect_raw.split("[").last.split("]").first
+
+                                $enemy_images[i][1] = rect_data.split(",").map { |s| s.to_i }
+                            end
+
                         end
 
                     end
@@ -316,8 +322,6 @@ def SearchLevel(level_path)
 
     ExcludeNonEnemies()
 
-    
-        
     for i in 0...$enemies.length do
 
         search_v = String( '"type": ' + '"' + $enemies[i] + '"' )
@@ -328,15 +332,6 @@ def SearchLevel(level_path)
         end
 
     end
-
-    # for i in 0...$enemies.length do
-
-    #     if File.read(level_path).include? $enemies[i] then
-    #       $first_appearence << [$enemies[i], File.basename(level_path)]
-    #        $encountered_enemies << $enemies[i]
-    #     end
-
-    # end
 
     if $encountered_enemies.length > 0 then
 
@@ -357,6 +352,10 @@ def CombineArrays()
             if $first_appearence[i][0] == $enemy_images[j][0] then
                 $first_appearence[i][2] = $enemy_images[j][1]
                 $first_appearence[i][3] = $enemy_images[j][2]
+            end
+
+            if $first_appearence[i][2] == 0 then
+                $first_appearence[i][2] = $default_rect
             end
 
         end 

@@ -5,9 +5,8 @@ require 'victor'
 require 'json'
 
 
-$levels = JSON.parse(File.read("../ProgressionSorted.json"))
-$enemies = JSON.parse(File.read("../Enemies.json"))
-
+$levels = JSON.parse(File.read("ProgressionSorted.json"))
+$enemies = JSON.parse(File.read("Enemies.json"))
 
 $line_offset = true
 
@@ -44,6 +43,7 @@ def DrawText(svg, x, y, txt)
 end
 
 def DrawImage(svg, x, y, path)
+
   svg.image href: path, x: x, y: y
 
 end
