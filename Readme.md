@@ -1,6 +1,6 @@
 # GreenFrog
 
-GreenFrog is a tool used to generate a simplified version of [Frogatto](https://github.com/frogatto/frogatto) progression with the first appearence of each enemy marked.
+GreenFrog is a tool used to generate a simplified version of [Frogatto](https://github.com/frogatto/frogatto) progression with the first appearence of every enemy marked.
 
 ## Dependencies:
 
@@ -9,4 +9,8 @@ GreenFrog is a tool used to generate a simplified version of [Frogatto](https://
 * mini_magick gem for ruby - For image editing
 * ImageMagick or GraphicsMagic terminal tool - For image editing
 * json gem for ruby - For reading .json files
-* A copy of Frogatto (tested on unstable version from April 24)
+* A copy of Frogatto (tested on dev branch from April 24 2021)
+
+## Known Issues
+
+This thing still cannot find enemies spawned in events, like ambushes. Because of this, it won't display some enemies (like most bosses). 

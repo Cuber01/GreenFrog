@@ -3,10 +3,10 @@
 require 'json'
 
 
-$enemy_folder = "/home/cubeq/bin/anura/modules/frogatto/data/objects/enemies/"
-$level_folder = "/home/cubeq/bin/anura/modules/frogatto/data/level/"
-$enemy_prototypes_folder = "/home/cubeq/bin/anura/modules/frogatto/data/object_prototypes/enemies_specialized"
-$images_folder = "/home/cubeq/bin/anura/modules/frogatto/images/"
+$enemy_folder = "../../data/objects/enemies/"
+$level_folder = "../../data/level/"
+$enemy_prototypes_folder = "../../data/object_prototypes/enemies_specialized"
+$images_folder = "../../images/"
 
 $current_folder = ""
 
@@ -15,12 +15,10 @@ $progression = JSON.parse($progression_raw)
 
 $non_enemies = [
   "owl",
-  "acorn",
-  #"skeeter_controller", 
+  "acorn", 
   "semiguided_missile",
   "spore_shooting_plant.cfg",
   "spider_silk",
- # "factory_remover", #
   "spore_shooting_plant",
   "mushroom_missile",
   "gazer_boss_manifold",
@@ -30,9 +28,6 @@ $non_enemies = [
 ]
 
 $default_rect = [85,72,114,101]
-
-# bosses
-# moth bomber
 
 
 $encountered_enemies = []
@@ -325,6 +320,7 @@ def SearchLevel(level_path)
     for i in 0...$enemies.length do
 
         search_v = String( '"type": ' + '"' + $enemies[i] + '"' )
+
 
         if File.read(level_path).match( Regexp.new( search_v ) ) then
            $first_appearence << [$enemies[i], File.basename(level_path)]
