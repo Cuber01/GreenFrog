@@ -2,13 +2,13 @@
 
 echo "Start"
 
-# Get data about enemies
-echo "Getting data about enemies..."
-ruby Data.rb > Enemies.json
-
 # Sort Progression.json if needed
 echo "Sorting progression..."
 ruby Sort.rb > ProgressionSorted.json
+
+# Get data about enemies
+echo "Getting data about enemies..."
+ruby Data.rb > Enemies.json
 
 # Prepare Images
 echo "Editing images..."

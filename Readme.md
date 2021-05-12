@@ -14,3 +14,13 @@ GreenFrog is a tool used to generate a simplified version of [Frogatto](https://
 ## Known Issues
 
 This thing still cannot find enemies spawned in events, like ambushes. Because of this, it won't display some enemies (like most bosses). 
+
+This will most likely work only on unix-like systems, because I used / everywhere. 
+
+## Usage
+
+1. This folder goes into anura/modules/frogatto/utils
+
+2. ./run.sh
+
+3. If everything goes right, your svg image should be in your folder. Please note that some svg viewers can't display .png images on svg. If your svg file displays without images, try to open it with Chrome or Firefox.

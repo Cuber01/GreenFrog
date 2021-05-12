@@ -50,7 +50,7 @@ end
 
 def main()
 
-    svg = Victor::SVG.new width: 100000, height: 1000, style: { background: '#ddd' }
+    svg = Victor::SVG.new width: 19000, height: 1000, style: { background: '#ddd' }
 
 
       for i in 0...$nmb_of_lines do
@@ -93,7 +93,7 @@ def main()
         for j in 0...$enemies.length do
 
           if $levels[i][0] == $enemies[j][1] then
-              DrawImage(svg, $line_shift * (multiplier+1), 210+50*k, "./image_preparation/img/" + $enemies[j][0] + ".png")
+              DrawImage(svg, $line_shift * (multiplier+1), 210+50*k, "./svg_generation/image_preparation/img/" + $enemies[j][0] + ".png")
               #DrawLine( svg, $line_shift * (multiplier+1), 210+50*k )      
               k = k + 1                 
           end
